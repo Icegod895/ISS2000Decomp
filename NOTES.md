@@ -149,27 +149,31 @@ Gevonden via de laadfunctie `0x80028AA4(item_struct, index)`, die `rom_read(rom,
 - Het loopt tot `0x25A600`, kort voor het eerste overlay-segment op `0x25AAF0`.
 - Volledige tabel: `asset_index_1.json`.
 
-## Asset-index #2 (gecomprimeerd deel, vanaf ROM `0x581DD0`)
-Vier lijsten ROM-adressen in het datagedeelte van het hoofdblok. Ze komen in paren: de tweede lijst is de eerste, één plek verschoven (`eind[i] = begin[i+1]`).
-| Lijst | ROM | RAM | Items | Inhoud |
-|---|---|---|---|---|
-| A (begin) | `0x88360` | `0x80087760` | >=55 | `0x5893F0` ... |
-| B (eind) | `0x8843C` | `0x8008783C` | 110 | `0x590930` ... `0xBBB280` |
-| C (begin) | `0x88640` | `0x80087A40` | 28 | `0x581DF0` ... |
-| D (eind) | `0x886B0` | `0x80087AB0` | 28 | `0x5822E0` ... |
+## Audio-banken (ROM vanaf `0x581DD0`)  [CORRECTIE: dit is geen compressie]
+Eerdere versie van deze notities noemde dit een eigen gecomprimeerd formaat. Dat was fout: het zijn standaard Nintendo-audiobestanden.
 
-- Data van A/B begint met `42 31 00 01 00 00 xx xx` (`"B1"`, versie 1, daarna een lengteveld). Eigen container, **niet** gewone zlib/deflate/gzip (getest op de eerste 6 items per lijst).
-- Data van C/D begint met `00 00 LL LL 9F 00 ...`; ander formaat.
-- Los daarvan zijn er 45 echte zlib-streams (kop `78 xx`) rond o.a. `0xC62C1C` en `0xE78B6C`; dat zijn waarschijnlijk andere assets.
-- Code die naar deze lijsten verwijst (laadfuncties, hier zit ook de decoder): `0x80038B1C`, `0x8004C050`-`0x8004C138`, `0x8004DA20`-`0x8004E028`, `0x8004E51C`-`0x8004E7DC`, `0x8004FC88`.
-- De lengtevelden in de kop van A/B komen niet overeen met `eind - begin`, dus de betekenis is nog onbekend.
-- **Open:** de decoder reverse-engineeren (die staat in de functies hierboven).
+- De functie rond `0x8004C000` is de **audio-initialisatie**. De configuratie bevat `0xAC44` = 44100 Hz. Een lus leest vier blokken uit de ROM met `eind[i] - begin[i]` als lengte (`0x8004B5A0` is de leesfunctie).
+- Lijsten met ROM-adressen in het hoofdblok (begin/eind-paren, `eind[i] = begin[i+1]`):
+
+| Lijst | ROM | RAM | Items |
+|---|---|---|---|
+| A (begin) | `0x88360` | `0x80087760` | >=55 |
+| B (eind) | `0x8843C` | `0x8008783C` | 110 |
+| C (begin) | `0x88640` | `0x80087A40` | 28 |
+| D (eind) | `0x886B0` | `0x80087AB0` | 28 |
+
+- Items in A/B beginnen met `42 31` = revisie `'B1'` van een **ALBankFile** (.ctl). Gecontroleerd op het eerste item (ROM `0x5893F0`, `0x7540` bytes): `bankCount=1`, bank op +`0x7260`, **178 instrumenten**, **sampleRate 44100**, alle pointers binnen het bestand; instrument 0: volume 127, pan 64, bendRange 200, 1 sound; wavetable type 0 (**ADPCM**), basis `0x0`, lengte `0x2950`.
+- De "lengtevelden" uit de kop waren dus bankoffsets binnen het bestand; daarom klopten ze niet met `eind - begin`.
+- Alleen het eerste bestand is volledig gecontroleerd; de overige items in A/B/C/D zijn nog niet geparsed.
+- Hypothese (niet gecontroleerd): de dichte data in de rest van dit gebied (entropie ~7,3-7,7) is ADPCM-sampledata (.tbl) en sequenties, geen zlib.
+- C/D (28 items, begin `00 00 xx xx 9F 00 ...`) is waarschijnlijk sequence-data; nog niet onderzocht.
+- De 45 echte zlib-streams (kop `78 xx`, o.a. rond `0xC62C1C` en `0xE78B6C`) zijn een apart verhaal; de inflate-code zit in het segment op `0x8027D380`.
 
 ## Onverklaarde ROM-gebieden (nog geen vaste laadconstanten gevonden)
 Totaal ongeveer 12,3 MiB. Waarschijnlijk assets die via een tabel/index worden geladen.
 - ~~`0x9E920` - `0x25AAF0`~~: verklaard, zie Asset-index #1.
 - `0x2A32A0` - `0x2B0E60`, `0x2BCB90` - `0x2C4920`, `0x2C7000` - `0x2C99E0`, `0x5021D0` - `0x5085D0`
-- `0x581DD0` - `0x1000000` (10,5 MiB, entropie ~7,3-7,7: waarschijnlijk met zlib gecomprimeerd)
+- `0x581DD0` - `0x1000000` (10,5 MiB, entropie ~7,3-7,7): bevat audio-banken (zie boven); de rest nog onbekend
 
 Correctie op een eerdere gok: `0x515890` (RAM `0x807AA000`) is geen tabel maar een klein codesegment.
 
