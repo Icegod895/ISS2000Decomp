@@ -189,7 +189,10 @@ De functie rond `0x8004C000` is de **audio-initialisatie** (configuratie bevat `
   | `0xE0-0xFE` | `(c & 0x1F)+2` nullen |
   | `0xFF` | volgende byte + 2 nullen |
 - **Getest op alle 62 blokken: 61 pakken foutloos uit en eindigen exact op de lengte uit hun kop** (60 via LZ, 1 via zlib). Blok 10 (`0xBC80B0`, kop `0x42000000`) is de uitzondering.
-- Uitgepakt totaal (61 blokken): ruim 1,8 MiB. De groottes (`0x2800`, `0x780`, `0x1000`, ...) zijn typisch voor afbeeldingsdata; **de inhoud is nog niet bekeken**, dus dat blijft een vermoeden.
+- Uitgepakt totaal (61 blokken): ruim 1,9 MiB.
+- **Inhoud visueel gecontroleerd** (uitgepakte blokken als 4-bit grijswaarden gerenderd, I4): het zijn UI-texturen. Herkend: vormen (cirkel, ster, driehoek), landnamen (Germany, France, Italy, Spain, Holland, Switzerland, Austria, Denmark, Belgium, Portugal, Luxembourg), positienamen (Sweeper, C.Back, Stopper, S.Back, W.Back, D.Half, O.Half, Wing, C.Forward, Striker, CrtPos), Japanse tekst, tijd- en weerwoorden (Night, Evening, Temperature, Humidity, Clear, Rain, Cloudy, Snow).
+- Breedte en formaat van elke textuur staan niet in het blok maar in de code die hem gebruikt (displaylijsten). Bij een verkeerde breedte ziet het beeld er vervormd uit. Niet alle blokken zijn bekeken; sommige zijn mogelijk 8-bit of geen afbeelding.
+- Let op: gerenderde texturen zijn game-assets en horen niet in de repo.
 
 ## Onverklaarde ROM-gebieden (nog geen vaste laadconstanten gevonden)
 Totaal ongeveer 12,3 MiB. Waarschijnlijk assets die via een tabel/index worden geladen.
