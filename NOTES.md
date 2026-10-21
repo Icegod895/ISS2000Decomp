@@ -149,31 +149,35 @@ Gevonden via de laadfunctie `0x80028AA4(item_struct, index)`, die `rom_read(rom,
 - Het loopt tot `0x25A600`, kort voor het eerste overlay-segment op `0x25AAF0`.
 - Volledige tabel: `asset_index_1.json`.
 
-## Audio-banken (ROM vanaf `0x581DD0`)  [CORRECTIE: dit is geen compressie]
-Eerdere versie van deze notities noemde dit een eigen gecomprimeerd formaat. Dat was fout: het zijn standaard Nintendo-audiobestanden.
+## Audio (ROM `0x581DF0` - `0xBC1600`)  [bevestigd voor de banken]
+De functie rond `0x8004C000` is de **audio-initialisatie** (configuratie bevat `0xAC44` = 44100 Hz). Dit is standaard Nintendo-audio (libultra), geen eigen compressie.
 
-- De functie rond `0x8004C000` is de **audio-initialisatie**. De configuratie bevat `0xAC44` = 44100 Hz. Een lus leest vier blokken uit de ROM met `eind[i] - begin[i]` als lengte (`0x8004B5A0` is de leesfunctie).
-- Lijsten met ROM-adressen in het hoofdblok (begin/eind-paren, `eind[i] = begin[i+1]`):
+**Lijsten in het hoofdblok** (ROM-adressen, alle oplopend):
+| Lijst | ROM | RAM | Items | Betekenis |
+|---|---|---|---|---|
+| 1, groep 0 | `0x88360` | `0x80087760` | 55 | begin van `.ctl` van bank i |
+| 1, groep 1 | `0x8843C` | `0x8008783C` | 55 | eind van `.ctl` van bank i |
+| 1, groep 2 | `0x88518` | `0x80087918` | 55 | begin van `.tbl` (samples) van bank i |
+| 2, groep 0 | `0x88640` | `0x80087A40` | 28 | begin sequentie i (hypothese) |
+| 2, groep 1 | `0x886B0` | `0x80087AB0` | 28 | eind sequentie i (hypothese) |
 
-| Lijst | ROM | RAM | Items |
-|---|---|---|---|
-| A (begin) | `0x88360` | `0x80087760` | >=55 |
-| B (eind) | `0x8843C` | `0x8008783C` | 110 |
-| C (begin) | `0x88640` | `0x80087A40` | 28 |
-| D (eind) | `0x886B0` | `0x80087AB0` | 28 |
+**Geverifieerd (alle 55 banken):**
+- Elk `.ctl` is een geldige `ALBankFile` (`'B1'`, 1 bank), alle interne pointers liggen binnen het bestand.
+- Samplerate overal 44100 Hz. Bank 0 heeft 178 instrumenten en 114 waveforms.
+- De grootste sample-verwijzing van elke bank valt op enkele bytes na samen met de grootte van het bijbehorende `.tbl`-blok (bank 0: `0xE897C` tegenover `0xE8980`). Daarmee zijn de `.tbl`-grenzen bevestigd.
+- Resultaten per bank: `audio_banks.json`.
 
-- Items in A/B beginnen met `42 31` = revisie `'B1'` van een **ALBankFile** (.ctl). Gecontroleerd op het eerste item (ROM `0x5893F0`, `0x7540` bytes): `bankCount=1`, bank op +`0x7260`, **178 instrumenten**, **sampleRate 44100**, alle pointers binnen het bestand; instrument 0: volume 127, pan 64, bendRange 200, 1 sound; wavetable type 0 (**ADPCM**), basis `0x0`, lengte `0x2950`.
-- De "lengtevelden" uit de kop waren dus bankoffsets binnen het bestand; daarom klopten ze niet met `eind - begin`.
-- Alleen het eerste bestand is volledig gecontroleerd; de overige items in A/B/C/D zijn nog niet geparsed.
-- Hypothese (niet gecontroleerd): de dichte data in de rest van dit gebied (entropie ~7,3-7,7) is ADPCM-sampledata (.tbl) en sequenties, geen zlib.
-- C/D (28 items, begin `00 00 xx xx 9F 00 ...`) is waarschijnlijk sequence-data; nog niet onderzocht.
-- De 45 echte zlib-streams (kop `78 xx`, o.a. rond `0xC62C1C` en `0xE78B6C`) zijn een apart verhaal; de inflate-code zit in het segment op `0x8027D380`.
+**Gebieden:**
+- Sequenties (hypothese): `0x581DF0` - `0x5893F0` (28 stuks), eindigt precies waar het eerste `.ctl` begint.
+- `.ctl`-bestanden: `0x5893F0` - `0x5B7350`.
+- `.tbl`-sampledata: `0x5B7350` - ongeveer `0xBC1600` (einde van het `.tbl` van bank 54: `0xBBB280` + `0x6380`).
+- Sequentie-inhoud (`00 00 xx xx 9F 00 ...`) is nog niet onderzocht.
 
 ## Onverklaarde ROM-gebieden (nog geen vaste laadconstanten gevonden)
 Totaal ongeveer 12,3 MiB. Waarschijnlijk assets die via een tabel/index worden geladen.
 - ~~`0x9E920` - `0x25AAF0`~~: verklaard, zie Asset-index #1.
 - `0x2A32A0` - `0x2B0E60`, `0x2BCB90` - `0x2C4920`, `0x2C7000` - `0x2C99E0`, `0x5021D0` - `0x5085D0`
-- `0x581DD0` - `0x1000000` (10,5 MiB, entropie ~7,3-7,7): bevat audio-banken (zie boven); de rest nog onbekend
+- `0xBC1600` - `0x1000000` (circa 4,2 MiB, entropie 6,9-7,8): **onbekend.** Begint met `00 00 03 C7 84 0F FF FF 70 E0 ...`; dat lijkt geen zlib. Daarin zitten 35 echte zlib-streams (o.a. `0xC62C1C`, `0xE78B6C`, `0xE977C8`), de meeste data is dus waarschijnlijk een ander (eigen) formaat.
 
 Correctie op een eerdere gok: `0x515890` (RAM `0x807AA000`) is geen tabel maar een klein codesegment.
 
