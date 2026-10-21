@@ -132,9 +132,26 @@ Gemeten aan hoe simpele registerkopieën (`move`) zijn gecodeerd:
 - Nog **niet bevestigd**: de exacte GCC-versie en vlaggen. Dat vereist een testcompilatie van een bekende functie.
 - Libultra-versie nog niet vastgesteld.
 
+## Asset-index #1 (ROM `0x9E920` - `0x25A600`)
+Gevonden via de laadfunctie `0x80028AA4(item_struct, index)`, die `rom_read(rom, ram, size)` aanroept met waarden uit tabellen:
+| Functie | Doet | Tabel (RAM) |
+|---|---|---|
+| `0x800284A0(i)` | ROM-offset = `0x9E920 + u32[i]` | `0x800780B0` |
+| `0x800284C0(i)` | grootte (u16) | `0x800788F0` |
+| `0x80028488(i)` | veld16 | `0x80077C90` |
+| `0x800284D8(i)` | type (u8) | `0x80078D10` |
+| `0x800284EC(i)` | veld32 | `0x80078F20` |
+
+- 528 items, allemaal binnen de ROM, offsets oplopend.
+- De ruimte tot het volgende item is bij 494 van 527 items **exact 56 x grootte**.
+- Items beginnen met een oplopende u16-lijst (`0, 1, 2, ...`); veld16 is bij de eerste items `0x6E` (110).
+- Hypothese: elk item is een clip van N frames; grootte = 2N (index-lijst), per frame 110 bytes, totaal 112N = 56 x grootte. Mogelijk spelersanimaties. **Aanname, nog niet bevestigd.**
+- Het loopt tot `0x25A600`, kort voor het eerste overlay-segment op `0x25AAF0`.
+- Volledige tabel: `asset_index_1.json`.
+
 ## Onverklaarde ROM-gebieden (nog geen vaste laadconstanten gevonden)
 Totaal ongeveer 12,3 MiB. Waarschijnlijk assets die via een tabel/index worden geladen.
-- `0x9E920` - `0x25AAF0` (1,7 MiB, entropie ~6,3, veel nullen: waarschijnlijk niet-gecomprimeerde data)
+- ~~`0x9E920` - `0x25AAF0`~~: verklaard, zie Asset-index #1.
 - `0x2A32A0` - `0x2B0E60`, `0x2BCB90` - `0x2C4920`, `0x2C7000` - `0x2C99E0`, `0x5021D0` - `0x5085D0`
 - `0x581DD0` - `0x1000000` (10,5 MiB, entropie ~7,3-7,7: waarschijnlijk met zlib gecomprimeerd)
 
