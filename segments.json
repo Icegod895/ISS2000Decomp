@@ -1,0 +1,578 @@
+[
+ {
+  "rom_start": "0x25AAF0",
+  "rom_end": "0x287AB0",
+  "size": "0x2CFC0",
+  "ram": "0x801AD820",
+  "found_in": "main",
+  "load_site": "0x80056290"
+ },
+ {
+  "rom_start": "0x287AB0",
+  "rom_end": "0x298280",
+  "size": "0x107D0",
+  "ram": "0x801DB100",
+  "found_in": "main",
+  "load_site": "0x800562D0"
+ },
+ {
+  "rom_start": "0x298280",
+  "rom_end": "0x29D870",
+  "size": "0x55F0",
+  "ram": "0x801EB960",
+  "found_in": "main",
+  "load_site": "0x80055FF0"
+ },
+ {
+  "rom_start": "0x29D870",
+  "rom_end": "0x2A32A0",
+  "size": "0x5A30",
+  "ram": "0x801EB960",
+  "found_in": "main",
+  "load_site": "0x800560E8"
+ },
+ {
+  "rom_start": "0x2B0E60",
+  "rom_end": "0x2BC720",
+  "size": "0xB8C0",
+  "ram": "0x801EB960",
+  "found_in": "main",
+  "load_site": "0x80054204"
+ },
+ {
+  "rom_start": "0x2BC720",
+  "rom_end": "0x2BCB90",
+  "size": "0x470",
+  "ram": "0x801EB960",
+  "found_in": "main",
+  "load_site": "0x8005412C"
+ },
+ {
+  "rom_start": "0x2C4920",
+  "rom_end": "0x2C7000",
+  "size": "0x26E0",
+  "ram": "0x801EB960",
+  "found_in": "main",
+  "load_site": "0x80056080"
+ },
+ {
+  "rom_start": "0x2C99E0",
+  "rom_end": "0x2D3980",
+  "size": "0x9FA0",
+  "ram": "0x801AD820",
+  "found_in": "main",
+  "load_site": "0x80003344"
+ },
+ {
+  "rom_start": "0x2D3980",
+  "rom_end": "0x2D65E0",
+  "size": "0x2C60",
+  "ram": "0x801AD820",
+  "found_in": "main",
+  "load_site": "0x800034E0"
+ },
+ {
+  "rom_start": "0x2D65E0",
+  "rom_end": "0x2D7530",
+  "size": "0xF50",
+  "ram": "0x803EB000",
+  "found_in": "main",
+  "load_site": "0x8000351C"
+ },
+ {
+  "rom_start": "0x2D7530",
+  "rom_end": "0x2DEE70",
+  "size": "0x7940",
+  "ram": "0x803EB000",
+  "found_in": "main",
+  "load_site": "0x80038AC4"
+ },
+ {
+  "rom_start": "0x2DEE70",
+  "rom_end": "0x314A80",
+  "size": "0x35C10",
+  "ram": "0x801AD820",
+  "found_in": "main",
+  "load_site": "0x80057D3C"
+ },
+ {
+  "rom_start": "0x314A80",
+  "rom_end": "0x315400",
+  "size": "0x980",
+  "ram": "0x801ED700",
+  "found_in": "main",
+  "load_site": "0x80057DA8"
+ },
+ {
+  "rom_start": "0x315400",
+  "rom_end": "0x316D00",
+  "size": "0x1900",
+  "ram": "0x801ED700",
+  "found_in": "main",
+  "load_site": "0x80057E1C"
+ },
+ {
+  "rom_start": "0x316D00",
+  "rom_end": "0x318660",
+  "size": "0x1960",
+  "ram": "0x801ED700",
+  "found_in": "main",
+  "load_site": "0x80057E54"
+ },
+ {
+  "rom_start": "0x318660",
+  "rom_end": "0x3248C0",
+  "size": "0xC260",
+  "ram": "0x801EF060",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6608"
+ },
+ {
+  "rom_start": "0x3248E0",
+  "rom_end": "0x326630",
+  "size": "0x1D50",
+  "ram": "0x801FEA80",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b76d0"
+ },
+ {
+  "rom_start": "0x326630",
+  "rom_end": "0x32A300",
+  "size": "0x3CD0",
+  "ram": "0x801EF060",
+  "found_in": "main",
+  "load_site": "0x80058314"
+ },
+ {
+  "rom_start": "0x32AE00",
+  "rom_end": "0x376010",
+  "size": "0x4B210",
+  "ram": "0x803AC000",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6684"
+ },
+ {
+  "rom_start": "0x376010",
+  "rom_end": "0x386080",
+  "size": "0x10070",
+  "ram": "0x802A4380",
+  "found_in": "main",
+  "load_site": "0x80056434"
+ },
+ {
+  "rom_start": "0x386080",
+  "rom_end": "0x3A7B10",
+  "size": "0x21A90",
+  "ram": "0x802B57E0",
+  "found_in": "main",
+  "load_site": "0x80056474"
+ },
+ {
+  "rom_start": "0x3A7B10",
+  "rom_end": "0x3AC9A0",
+  "size": "0x4E90",
+  "ram": "0x8027D380",
+  "found_in": "main",
+  "load_site": "0x8005677C"
+ },
+ {
+  "rom_start": "0x3AC9A0",
+  "rom_end": "0x3B47E0",
+  "size": "0x7E40",
+  "ram": "0x80297040",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b66bc"
+ },
+ {
+  "rom_start": "0x3B47E0",
+  "rom_end": "0x3C69D0",
+  "size": "0x121F0",
+  "ram": "0x8029EEA0",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6a30"
+ },
+ {
+  "rom_start": "0x3C69D0",
+  "rom_end": "0x3D0680",
+  "size": "0x9CB0",
+  "ram": "0x802B1110",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6a98"
+ },
+ {
+  "rom_start": "0x3D0680",
+  "rom_end": "0x3DCC70",
+  "size": "0xC5F0",
+  "ram": "0x802BAE10",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6b00"
+ },
+ {
+  "rom_start": "0x3DCC70",
+  "rom_end": "0x3E3040",
+  "size": "0x63D0",
+  "ram": "0x802C7830",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6b68"
+ },
+ {
+  "rom_start": "0x3E3040",
+  "rom_end": "0x3E83D0",
+  "size": "0x5390",
+  "ram": "0x8027D380",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6eac"
+ },
+ {
+  "rom_start": "0x3E83D0",
+  "rom_end": "0x3F34F0",
+  "size": "0xB120",
+  "ram": "0x8029EEA0",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6ca4"
+ },
+ {
+  "rom_start": "0x3F34F0",
+  "rom_end": "0x3FC9F0",
+  "size": "0x9500",
+  "ram": "0x802AA060",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6d0c"
+ },
+ {
+  "rom_start": "0x3FC9F0",
+  "rom_end": "0x401910",
+  "size": "0x4F20",
+  "ram": "0x802B35B0",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6d74"
+ },
+ {
+  "rom_start": "0x401910",
+  "rom_end": "0x40C7A0",
+  "size": "0xAE90",
+  "ram": "0x802B8500",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6ddc"
+ },
+ {
+  "rom_start": "0x40C7A0",
+  "rom_end": "0x41B4F0",
+  "size": "0xED50",
+  "ram": "0x802C3490",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6e44"
+ },
+ {
+  "rom_start": "0x41B4F0",
+  "rom_end": "0x427BF0",
+  "size": "0xC700",
+  "ram": "0x802B8500",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6fa8"
+ },
+ {
+  "rom_start": "0x427BF0",
+  "rom_end": "0x436A00",
+  "size": "0xEE10",
+  "ram": "0x8029EEA0",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b70b4"
+ },
+ {
+  "rom_start": "0x436A00",
+  "rom_end": "0x445DF0",
+  "size": "0xF3F0",
+  "ram": "0x802AE200",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b711c"
+ },
+ {
+  "rom_start": "0x445DF0",
+  "rom_end": "0x4534E0",
+  "size": "0xD6F0",
+  "ram": "0x802BDAF0",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b7184"
+ },
+ {
+  "rom_start": "0x4534E0",
+  "rom_end": "0x460DA0",
+  "size": "0xD8C0",
+  "ram": "0x8029EEA0",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b7290"
+ },
+ {
+  "rom_start": "0x460DA0",
+  "rom_end": "0x4689A0",
+  "size": "0x7C00",
+  "ram": "0x802ACDB0",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b72f8"
+ },
+ {
+  "rom_start": "0x4689A0",
+  "rom_end": "0x46FC80",
+  "size": "0x72E0",
+  "ram": "0x802B4B10",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b7360"
+ },
+ {
+  "rom_start": "0x46FC80",
+  "rom_end": "0x481680",
+  "size": "0x11A00",
+  "ram": "0x8029EEA0",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b7598"
+ },
+ {
+  "rom_start": "0x481680",
+  "rom_end": "0x484E10",
+  "size": "0x3790",
+  "ram": "0x802B1070",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b7600"
+ },
+ {
+  "rom_start": "0x484E10",
+  "rom_end": "0x490F40",
+  "size": "0xC130",
+  "ram": "0x802B8EB0",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b7668"
+ },
+ {
+  "rom_start": "0x490F40",
+  "rom_end": "0x499D90",
+  "size": "0x8E50",
+  "ram": "0x802B1110",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b783c"
+ },
+ {
+  "rom_start": "0x499D90",
+  "rom_end": "0x49D610",
+  "size": "0x3880",
+  "ram": "0x802BAE10",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b7944"
+ },
+ {
+  "rom_start": "0x49D610",
+  "rom_end": "0x4A26A0",
+  "size": "0x5090",
+  "ram": "0x802CDCB0",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b7730"
+ },
+ {
+  "rom_start": "0x4A26A0",
+  "rom_end": "0x4A41C0",
+  "size": "0x1B20",
+  "ram": "0x8027D380",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b79d0"
+ },
+ {
+  "rom_start": "0x4A41C0",
+  "rom_end": "0x4A6820",
+  "size": "0x2660",
+  "ram": "0x8022DF30",
+  "found_in": "main",
+  "load_site": "0x80038AE4"
+ },
+ {
+  "rom_start": "0x4A6820",
+  "rom_end": "0x4DFA40",
+  "size": "0x39220",
+  "ram": "0x80230590",
+  "found_in": "main",
+  "load_site": "0x800565BC"
+ },
+ {
+  "rom_start": "0x4DFA40",
+  "rom_end": "0x4E51D0",
+  "size": "0x5790",
+  "ram": "0x8026D730",
+  "found_in": "main",
+  "load_site": "0x800564D8"
+ },
+ {
+  "rom_start": "0x4E51D0",
+  "rom_end": "0x4EDA30",
+  "size": "0x8860",
+  "ram": "0x80272EF0",
+  "found_in": "main",
+  "load_site": "0x80056538"
+ },
+ {
+  "rom_start": "0x4EDA30",
+  "rom_end": "0x4F19E0",
+  "size": "0x3FB0",
+  "ram": "0x8026D730",
+  "found_in": "main",
+  "load_site": "0x8005694C"
+ },
+ {
+  "rom_start": "0x4F19E0",
+  "rom_end": "0x4F6A20",
+  "size": "0x5040",
+  "ram": "0x802718F0",
+  "found_in": "main",
+  "load_site": "0x800569AC"
+ },
+ {
+  "rom_start": "0x4F6A20",
+  "rom_end": "0x4FC4E0",
+  "size": "0x5AC0",
+  "ram": "0x80276930",
+  "found_in": "main",
+  "load_site": "0x80056A0C"
+ },
+ {
+  "rom_start": "0x4FC4E0",
+  "rom_end": "0x501520",
+  "size": "0x5040",
+  "ram": "0x80222480",
+  "found_in": "main",
+  "load_site": "0x8002CDA8"
+ },
+ {
+  "rom_start": "0x501530",
+  "rom_end": "0x5021D0",
+  "size": "0xCA0",
+  "ram": "0x80201280",
+  "found_in": "main",
+  "load_site": "0x800568EC"
+ },
+ {
+  "rom_start": "0x5085D0",
+  "rom_end": "0x508BF0",
+  "size": "0x620",
+  "ram": "0x80270140",
+  "found_in": "main",
+  "load_site": "0x80054298"
+ },
+ {
+  "rom_start": "0x508C30",
+  "rom_end": "0x508ED0",
+  "size": "0x2A0",
+  "ram": "0x802D5E00",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b683c"
+ },
+ {
+  "rom_start": "0x508ED0",
+  "rom_end": "0x50A1D0",
+  "size": "0x1300",
+  "ram": "0x802D5E00",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b68b0"
+ },
+ {
+  "rom_start": "0x50A1D0",
+  "rom_end": "0x50B4D0",
+  "size": "0x1300",
+  "ram": "0x802D5E00",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b68e8"
+ },
+ {
+  "rom_start": "0x50B4D0",
+  "rom_end": "0x50C3E0",
+  "size": "0xF10",
+  "ram": "0x803FAF60",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b6728"
+ },
+ {
+  "rom_start": "0x50C3E0",
+  "rom_end": "0x5103D0",
+  "size": "0x3FF0",
+  "ram": "0x803FAF60",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b679c"
+ },
+ {
+  "rom_start": "0x5103D0",
+  "rom_end": "0x514580",
+  "size": "0x41B0",
+  "ram": "0x803FAF60",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b67d4"
+ },
+ {
+  "rom_start": "0x514580",
+  "rom_end": "0x514950",
+  "size": "0x3D0",
+  "ram": "0x802DD400",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b73cc"
+ },
+ {
+  "rom_start": "0x514950",
+  "rom_end": "0x515160",
+  "size": "0x810",
+  "ram": "0x802DD400",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b7440"
+ },
+ {
+  "rom_start": "0x515160",
+  "rom_end": "0x515890",
+  "size": "0x730",
+  "ram": "0x802DD400",
+  "found_in": "overlay 0x2dee70",
+  "load_site": "0x801b7478"
+ },
+ {
+  "rom_start": "0x515890",
+  "rom_end": "0x516CE0",
+  "size": "0x1450",
+  "ram": "0x807AA000",
+  "found_in": "main",
+  "load_site": "0x80008DF4"
+ },
+ {
+  "rom_start": "0x516CE0",
+  "rom_end": "0x523120",
+  "size": "0xC440",
+  "ram": "0x801EF060",
+  "found_in": "main",
+  "load_site": "0x80058058"
+ },
+ {
+  "rom_start": "0x523120",
+  "rom_end": "0x5645E0",
+  "size": "0x414C0",
+  "ram": "0x80212700",
+  "found_in": "main",
+  "load_site": "0x80058148"
+ },
+ {
+  "rom_start": "0x564670",
+  "rom_end": "0x572EB0",
+  "size": "0xE840",
+  "ram": "0x80257310",
+  "found_in": "main",
+  "load_site": "0x800580D0"
+ },
+ {
+  "rom_start": "0x572EB0",
+  "rom_end": "0x57F870",
+  "size": "0xC9C0",
+  "ram": "0x803C4F80",
+  "found_in": "main",
+  "load_site": "0x8005820C"
+ },
+ {
+  "rom_start": "0x57F870",
+  "rom_end": "0x581DD0",
+  "size": "0x2560",
+  "ram": "0x803D1A30",
+  "found_in": "main",
+  "load_site": "0x80058274"
+ }
+]

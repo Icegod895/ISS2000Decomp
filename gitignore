@@ -1,0 +1,34 @@
+# ROM-bestanden: NOOIT committen (eigen dump, auteursrechtelijk beschermd)
+*.z64
+*.n64
+*.v64
+*.rom
+*.bin
+
+# Uitgepakte of afgeleide game-assets
+assets/
+extracted/
+baserom*
+
+# Build-output
+build/
+out/
+*.o
+*.elf
+*.map
+
+# Splat-uitvoer die uit de ROM voortkomt
+asm/
+bin/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
