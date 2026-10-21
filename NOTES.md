@@ -149,6 +149,22 @@ Gevonden via de laadfunctie `0x80028AA4(item_struct, index)`, die `rom_read(rom,
 - Het loopt tot `0x25A600`, kort voor het eerste overlay-segment op `0x25AAF0`.
 - Volledige tabel: `asset_index_1.json`.
 
+## Asset-index #2 (gecomprimeerd deel, vanaf ROM `0x581DD0`)
+Vier lijsten ROM-adressen in het datagedeelte van het hoofdblok. Ze komen in paren: de tweede lijst is de eerste, één plek verschoven (`eind[i] = begin[i+1]`).
+| Lijst | ROM | RAM | Items | Inhoud |
+|---|---|---|---|---|
+| A (begin) | `0x88360` | `0x80087760` | >=55 | `0x5893F0` ... |
+| B (eind) | `0x8843C` | `0x8008783C` | 110 | `0x590930` ... `0xBBB280` |
+| C (begin) | `0x88640` | `0x80087A40` | 28 | `0x581DF0` ... |
+| D (eind) | `0x886B0` | `0x80087AB0` | 28 | `0x5822E0` ... |
+
+- Data van A/B begint met `42 31 00 01 00 00 xx xx` (`"B1"`, versie 1, daarna een lengteveld). Eigen container, **niet** gewone zlib/deflate/gzip (getest op de eerste 6 items per lijst).
+- Data van C/D begint met `00 00 LL LL 9F 00 ...`; ander formaat.
+- Los daarvan zijn er 45 echte zlib-streams (kop `78 xx`) rond o.a. `0xC62C1C` en `0xE78B6C`; dat zijn waarschijnlijk andere assets.
+- Code die naar deze lijsten verwijst (laadfuncties, hier zit ook de decoder): `0x80038B1C`, `0x8004C050`-`0x8004C138`, `0x8004DA20`-`0x8004E028`, `0x8004E51C`-`0x8004E7DC`, `0x8004FC88`.
+- De lengtevelden in de kop van A/B komen niet overeen met `eind - begin`, dus de betekenis is nog onbekend.
+- **Open:** de decoder reverse-engineeren (die staat in de functies hierboven).
+
 ## Onverklaarde ROM-gebieden (nog geen vaste laadconstanten gevonden)
 Totaal ongeveer 12,3 MiB. Waarschijnlijk assets die via een tabel/index worden geladen.
 - ~~`0x9E920` - `0x25AAF0`~~: verklaard, zie Asset-index #1.
