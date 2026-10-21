@@ -117,6 +117,21 @@ De game laadt segmenten met `rom_read(begin, bestemming, eind - begin)`; de waar
 - Er wordt ook `"IS64"` naar `0xB1FF0000` geschreven (IS-Viewer 64 debug-interface).
 - Gevolg voor de port: niets omzeilen. Zorg dat een ROM-read voorbij het einde de gespiegelde data teruggeeft, of laat de stubs gewoon staan.
 
+## Compiler en code-indeling hoofdblok
+Gemeten aan hoe simpele registerkopieën (`move`) zijn gecodeerd:
+| Regio | `daddu`-kopieën | `addu`-kopieën | `or`-kopieën |
+|---|---|---|---|
+| Gamecode `0x80000400` - `0x80058000` | 3239 | 0 | 0 |
+| Libultra `0x80058400` - `0x80068800` | 0 | 839 | 0 |
+| Overlays samen | 21768 | 171 | 153 |
+
+- Gamecode gebruikt uitsluitend `daddu`. Dat past bij **GCC** met 64-bit registers (waarschijnlijk een KMC GCC 2.7.x-variant) en niet bij IDO.
+- Libultra is met andere vlaggen gebouwd (`addu`), zoals gebruikelijk bij Nintendo's eigen bibliotheek.
+- Grenzen zijn op 0x400 nauwkeurig; de exacte functiegrens moet nog worden vastgesteld.
+- Geen `$gp`-gebruik in de gamecode.
+- Nog **niet bevestigd**: de exacte GCC-versie en vlaggen. Dat vereist een testcompilatie van een bekende functie.
+- Libultra-versie nog niet vastgesteld.
+
 ## Onverklaarde ROM-gebieden (nog geen vaste laadconstanten gevonden)
 Totaal ongeveer 12,3 MiB. Waarschijnlijk assets die via een tabel/index worden geladen.
 - `0x9E920` - `0x25AAF0` (1,7 MiB, entropie ~6,3, veel nullen: waarschijnlijk niet-gecomprimeerde data)
@@ -127,5 +142,4 @@ Correctie op een eerdere gok: `0x515890` (RAM `0x807AA000`) is geen tabel maar e
 
 ## Open punten
 - Dynamische `rom_read`-aanroepen: `0x80008900`, `0x8002864C`, `0x80028AF8`, `0x8004B5A8`, `0x800539E0`, `0x80055F28`, `0x80055F70` (hoofdblok) en `0x802A489C`, `0x8027D448` (overlays). Dit zijn waarschijnlijk generieke asset-loaders; de aanroepers vinden levert de asset-tabel op.
-- Compiler en libultra-versie nog niet vastgesteld.
 - Nog niets in een emulator geverifieerd.
