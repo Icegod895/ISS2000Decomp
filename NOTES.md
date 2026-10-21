@@ -173,11 +173,29 @@ De functie rond `0x8004C000` is de **audio-initialisatie** (configuratie bevat `
 - `.tbl`-sampledata: `0x5B7350` - ongeveer `0xBC1600` (einde van het `.tbl` van bank 54: `0xBBB280` + `0x6380`).
 - Sequentie-inhoud (`00 00 xx xx 9F 00 ...`) is nog niet onderzocht.
 
+## Gecomprimeerde assets (ROM `0xBC1600` - `0xC9B384`)  [decompressor werkt]
+- Tabel op RAM `0x800966AC` (ROM `0x972AC`): begint met de tekst `Nisitenma-Ichigo`, daarna **62** paren `(begin, eind)` (8 bytes per paar, vanaf +0x10). Aaneensluitend (61/61), loopt van `0xBC1600` tot `0xC9B384`. Volledige lijst: `asset_index_3.json`.
+- Laadfunctie `0x8005399C`: leest zo'n paar en roept `rom_read` aan. Is het beginadres negatief (bit31 gezet), dan gaat ze naar `0x800082A8` (decompressor).
+- `0x800082A8(rom, dest, lengte)` leest de ROM in stukken van `0x1800` bytes (`0x80008890`, per byte via `0x80008810`) en heeft een 4-byte kop:
+  - bit31 gezet: standaard zlib (`0x8027D380`, de inflate-overlay). Kop = `0x80000000 | lengte`, daarna zlib-stream.
+  - kopnibble 0: **eigen LZ** (zie `iss_lz.py`); kop = gecomprimeerde lengte incl. kop.
+  - kopnibble 4 (komt 1x voor): tweede methode, nog niet gelezen (code vanaf `0x8000854C`).
+- Regels van de LZ-methode (uit de MIPS-code afgeleid):
+  | Stuurbyte | Betekenis |
+  |---|---|
+  | `0x00-0x7F` | kopieer `(c>>2)+2` bytes van `afstand` terug, afstand = 10 bits (`(c&3)<<8 | volgende byte`) |
+  | `0x80-0x9F` | `c & 0x1F` letterlijke bytes |
+  | `0xA0-0xDF` | volgende byte `(c & 0x1F)+2` keer herhalen |
+  | `0xE0-0xFE` | `(c & 0x1F)+2` nullen |
+  | `0xFF` | volgende byte + 2 nullen |
+- **Getest op alle 62 blokken: 61 pakken foutloos uit en eindigen exact op de lengte uit hun kop** (60 via LZ, 1 via zlib). Blok 10 (`0xBC80B0`, kop `0x42000000`) is de uitzondering.
+- Uitgepakt totaal (61 blokken): ruim 1,8 MiB. De groottes (`0x2800`, `0x780`, `0x1000`, ...) zijn typisch voor afbeeldingsdata; **de inhoud is nog niet bekeken**, dus dat blijft een vermoeden.
+
 ## Onverklaarde ROM-gebieden (nog geen vaste laadconstanten gevonden)
 Totaal ongeveer 12,3 MiB. Waarschijnlijk assets die via een tabel/index worden geladen.
 - ~~`0x9E920` - `0x25AAF0`~~: verklaard, zie Asset-index #1.
 - `0x2A32A0` - `0x2B0E60`, `0x2BCB90` - `0x2C4920`, `0x2C7000` - `0x2C99E0`, `0x5021D0` - `0x5085D0`
-- `0xBC1600` - `0x1000000` (circa 4,2 MiB, entropie 6,9-7,8): **onbekend.** Begint met `00 00 03 C7 84 0F FF FF 70 E0 ...`; dat lijkt geen zlib. Daarin zitten 35 echte zlib-streams (o.a. `0xC62C1C`, `0xE78B6C`, `0xE977C8`), de meeste data is dus waarschijnlijk een ander (eigen) formaat.
+- `0xC9B384` - `0x1000000` (circa 3,4 MiB): **onbekend.** Niet gedekt door de tabel hierboven; mogelijk een of meer andere tabellen.
 
 Correctie op een eerdere gok: `0x515890` (RAM `0x807AA000`) is geen tabel maar een klein codesegment.
 
