@@ -30,3 +30,11 @@ def decompress(rom: bytes, start: int):
             n = rom[pos] + 2; pos += 1
             out += bytes(n)
     return bytes(out), pos - start, total
+
+
+def read_asset(rom: bytes, start: int, end: int, flagged: bool) -> bytes:
+    """Leest een asset zoals het spel: vlag gezet (bit31 van het beginadres in de tabel) -> gecomprimeerd
+    (zlib als bit31 van de kop gezet is, anders de eigen LZ), vlag niet gezet -> ruwe bytes."""
+    if not flagged:
+        return rom[start:end]
+    return decompress(rom, start)[0]
