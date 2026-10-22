@@ -5,8 +5,8 @@
   "rom_end": "0xBC19C8",
   "size": 968,
   "flag_bit31": true,
-  "out_size": "0x7C0",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x7C0"
  },
  {
   "index": 1,
@@ -14,8 +14,8 @@
   "rom_end": "0xBC409C",
   "size": 9940,
   "flag_bit31": true,
-  "out_size": "0xE600",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0xE600"
  },
  {
   "index": 2,
@@ -23,8 +23,8 @@
   "rom_end": "0xBC5E96",
   "size": 7674,
   "flag_bit31": true,
-  "out_size": "0x4600",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x4600"
  },
  {
   "index": 3,
@@ -32,8 +32,8 @@
   "rom_end": "0xBC6A3C",
   "size": 2982,
   "flag_bit31": true,
-  "out_size": "0x2800",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x2800"
  },
  {
   "index": 4,
@@ -41,8 +41,8 @@
   "rom_end": "0xBC6CE2",
   "size": 678,
   "flag_bit31": true,
-  "out_size": "0x780",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x780"
  },
  {
   "index": 5,
@@ -50,8 +50,8 @@
   "rom_end": "0xBC6FFA",
   "size": 792,
   "flag_bit31": true,
-  "out_size": "0x780",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x780"
  },
  {
   "index": 6,
@@ -59,8 +59,8 @@
   "rom_end": "0xBC7582",
   "size": 1416,
   "flag_bit31": true,
-  "out_size": "0x1000",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x1000"
  },
  {
   "index": 7,
@@ -68,8 +68,8 @@
   "rom_end": "0xBC773C",
   "size": 442,
   "flag_bit31": true,
-  "out_size": "0x780",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x780"
  },
  {
   "index": 8,
@@ -77,8 +77,8 @@
   "rom_end": "0xBC7CA0",
   "size": 1380,
   "flag_bit31": true,
-  "out_size": "0x700",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x700"
  },
  {
   "index": 9,
@@ -86,8 +86,8 @@
   "rom_end": "0xBC80B0",
   "size": 1040,
   "flag_bit31": true,
-  "out_size": "0x700",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x700"
  },
  {
   "index": 10,
@@ -95,8 +95,8 @@
   "rom_end": "0xBC91A0",
   "size": 4336,
   "flag_bit31": false,
-  "out_size": null,
-  "method": "onbekend (nibble 4)"
+  "method": "raw",
+  "out_size": "0x10F0"
  },
  {
   "index": 11,
@@ -104,8 +104,8 @@
   "rom_end": "0xBCA8E4",
   "size": 5956,
   "flag_bit31": true,
-  "out_size": "0x3000",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x3000"
  },
  {
   "index": 12,
@@ -113,8 +113,8 @@
   "rom_end": "0xBCC2A8",
   "size": 6596,
   "flag_bit31": true,
-  "out_size": "0x3000",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x3000"
  },
  {
   "index": 13,
@@ -122,8 +122,8 @@
   "rom_end": "0xBD196E",
   "size": 22214,
   "flag_bit31": true,
-  "out_size": "0xB100",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0xB100"
  },
  {
   "index": 14,
@@ -131,8 +131,8 @@
   "rom_end": "0xBD2F9C",
   "size": 5678,
   "flag_bit31": true,
-  "out_size": "0x6000",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x6000"
  },
  {
   "index": 15,
@@ -140,8 +140,8 @@
   "rom_end": "0xBD3502",
   "size": 1382,
   "flag_bit31": true,
-  "out_size": "0xB40",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0xB40"
  },
  {
   "index": 16,
@@ -149,8 +149,8 @@
   "rom_end": "0xBD4A66",
   "size": 5476,
   "flag_bit31": true,
-  "out_size": "0x3800",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x3800"
  },
  {
   "index": 17,
@@ -158,8 +158,8 @@
   "rom_end": "0xBD4AB4",
   "size": 78,
   "flag_bit31": true,
-  "out_size": "0x300",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x300"
  },
  {
   "index": 18,
@@ -167,8 +167,8 @@
   "rom_end": "0xBD4C2A",
   "size": 374,
   "flag_bit31": true,
-  "out_size": "0x680",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x680"
  },
  {
   "index": 19,
@@ -176,8 +176,8 @@
   "rom_end": "0xBDB35E",
   "size": 26420,
   "flag_bit31": true,
-  "out_size": "0x11480",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x11480"
  },
  {
   "index": 20,
@@ -185,8 +185,8 @@
   "rom_end": "0xBF0FFC",
   "size": 89246,
   "flag_bit31": true,
-  "out_size": "0x26F40",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x26F40"
  },
  {
   "index": 21,
@@ -194,8 +194,8 @@
   "rom_end": "0xBF8D9A",
   "size": 32158,
   "flag_bit31": true,
-  "out_size": "0x12F40",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x12F40"
  },
  {
   "index": 22,
@@ -203,8 +203,8 @@
   "rom_end": "0xBF9164",
   "size": 970,
   "flag_bit31": true,
-  "out_size": "0xC00",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0xC00"
  },
  {
   "index": 23,
@@ -212,8 +212,8 @@
   "rom_end": "0xBF9D8A",
   "size": 3110,
   "flag_bit31": true,
-  "out_size": "0x2500",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x2500"
  },
  {
   "index": 24,
@@ -221,8 +221,8 @@
   "rom_end": "0xBFC928",
   "size": 11166,
   "flag_bit31": true,
-  "out_size": "0x8D00",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x8D00"
  },
  {
   "index": 25,
@@ -230,8 +230,8 @@
   "rom_end": "0xC098A0",
   "size": 53112,
   "flag_bit31": true,
-  "out_size": "0x1A800",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x1A800"
  },
  {
   "index": 26,
@@ -239,8 +239,8 @@
   "rom_end": "0xC0ABAC",
   "size": 4876,
   "flag_bit31": true,
-  "out_size": "0x3D80",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x3D80"
  },
  {
   "index": 27,
@@ -248,8 +248,8 @@
   "rom_end": "0xC0BCF0",
   "size": 4420,
   "flag_bit31": true,
-  "out_size": "0x3680",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x3680"
  },
  {
   "index": 28,
@@ -257,8 +257,8 @@
   "rom_end": "0xC17B1A",
   "size": 48682,
   "flag_bit31": true,
-  "out_size": "0xF000",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0xF000"
  },
  {
   "index": 29,
@@ -266,8 +266,8 @@
   "rom_end": "0xC182E2",
   "size": 1992,
   "flag_bit31": true,
-  "out_size": "0x1100",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x1100"
  },
  {
   "index": 30,
@@ -275,8 +275,8 @@
   "rom_end": "0xC19D4C",
   "size": 6762,
   "flag_bit31": true,
-  "out_size": "0x30C0",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x30C0"
  },
  {
   "index": 31,
@@ -284,8 +284,8 @@
   "rom_end": "0xC1CB14",
   "size": 11720,
   "flag_bit31": true,
-  "out_size": "0x7F00",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x7F00"
  },
  {
   "index": 32,
@@ -293,8 +293,8 @@
   "rom_end": "0xC1D93C",
   "size": 3624,
   "flag_bit31": true,
-  "out_size": "0x3200",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x3200"
  },
  {
   "index": 33,
@@ -302,8 +302,8 @@
   "rom_end": "0xC2C384",
   "size": 59976,
   "flag_bit31": true,
-  "out_size": "0x264C0",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x264C0"
  },
  {
   "index": 34,
@@ -311,8 +311,8 @@
   "rom_end": "0xC2CC6E",
   "size": 2282,
   "flag_bit31": true,
-  "out_size": "0x1D00",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x1D00"
  },
  {
   "index": 35,
@@ -320,8 +320,8 @@
   "rom_end": "0xC2D8DE",
   "size": 3184,
   "flag_bit31": true,
-  "out_size": "0x2180",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x2180"
  },
  {
   "index": 36,
@@ -329,8 +329,8 @@
   "rom_end": "0xC2F182",
   "size": 6308,
   "flag_bit31": true,
-  "out_size": "0x3600",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x3600"
  },
  {
   "index": 37,
@@ -338,8 +338,8 @@
   "rom_end": "0xC300DA",
   "size": 3928,
   "flag_bit31": true,
-  "out_size": "0x2A00",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x2A00"
  },
  {
   "index": 38,
@@ -347,8 +347,8 @@
   "rom_end": "0xC307E0",
   "size": 1798,
   "flag_bit31": true,
-  "out_size": "0xC00",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0xC00"
  },
  {
   "index": 39,
@@ -356,8 +356,8 @@
   "rom_end": "0xC309DC",
   "size": 508,
   "flag_bit31": true,
-  "out_size": "0xA00",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0xA00"
  },
  {
   "index": 40,
@@ -365,8 +365,8 @@
   "rom_end": "0xC3409E",
   "size": 14018,
   "flag_bit31": true,
-  "out_size": "0x96C0",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x96C0"
  },
  {
   "index": 41,
@@ -374,8 +374,8 @@
   "rom_end": "0xC38468",
   "size": 17354,
   "flag_bit31": true,
-  "out_size": "0x9E00",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x9E00"
  },
  {
   "index": 42,
@@ -383,8 +383,8 @@
   "rom_end": "0xC38506",
   "size": 158,
   "flag_bit31": true,
-  "out_size": "0x580",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x580"
  },
  {
   "index": 43,
@@ -392,8 +392,8 @@
   "rom_end": "0xC3BBDA",
   "size": 14036,
   "flag_bit31": true,
-  "out_size": "0x6800",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x6800"
  },
  {
   "index": 44,
@@ -401,8 +401,8 @@
   "rom_end": "0xC3C55A",
   "size": 2432,
   "flag_bit31": true,
-  "out_size": "0x1480",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x1480"
  },
  {
   "index": 45,
@@ -410,8 +410,8 @@
   "rom_end": "0xC3CB9C",
   "size": 1602,
   "flag_bit31": true,
-  "out_size": "0x1C00",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x1C00"
  },
  {
   "index": 46,
@@ -419,8 +419,8 @@
   "rom_end": "0xC43A98",
   "size": 28412,
   "flag_bit31": true,
-  "out_size": "0xD240",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0xD240"
  },
  {
   "index": 47,
@@ -428,8 +428,8 @@
   "rom_end": "0xC44630",
   "size": 2968,
   "flag_bit31": true,
-  "out_size": "0x1C80",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x1C80"
  },
  {
   "index": 48,
@@ -437,8 +437,8 @@
   "rom_end": "0xC45530",
   "size": 3840,
   "flag_bit31": true,
-  "out_size": "0x2B40",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x2B40"
  },
  {
   "index": 49,
@@ -446,8 +446,8 @@
   "rom_end": "0xC456DC",
   "size": 428,
   "flag_bit31": true,
-  "out_size": "0x380",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x380"
  },
  {
   "index": 50,
@@ -455,8 +455,8 @@
   "rom_end": "0xC47CB4",
   "size": 9688,
   "flag_bit31": true,
-  "out_size": "0x4F40",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x4F40"
  },
  {
   "index": 51,
@@ -464,8 +464,8 @@
   "rom_end": "0xC4C794",
   "size": 19168,
   "flag_bit31": true,
-  "out_size": "0xB680",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0xB680"
  },
  {
   "index": 52,
@@ -473,8 +473,8 @@
   "rom_end": "0xC500E0",
   "size": 14668,
   "flag_bit31": true,
-  "out_size": "0x8640",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x8640"
  },
  {
   "index": 53,
@@ -482,8 +482,8 @@
   "rom_end": "0xC62C18",
   "size": 76600,
   "flag_bit31": true,
-  "out_size": "0x1DE40",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x1DE40"
  },
  {
   "index": 54,
@@ -491,8 +491,8 @@
   "rom_end": "0xC744E4",
   "size": 71884,
   "flag_bit31": true,
-  "out_size": "0x23E00",
-  "method": "zlib"
+  "method": "zlib",
+  "out_size": "0x23E00"
  },
  {
   "index": 55,
@@ -500,8 +500,8 @@
   "rom_end": "0xC775C2",
   "size": 12510,
   "flag_bit31": true,
-  "out_size": "0x80C0",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x80C0"
  },
  {
   "index": 56,
@@ -509,8 +509,8 @@
   "rom_end": "0xC77BFA",
   "size": 1592,
   "flag_bit31": true,
-  "out_size": "0x8C0",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x8C0"
  },
  {
   "index": 57,
@@ -518,8 +518,8 @@
   "rom_end": "0xC7D688",
   "size": 23182,
   "flag_bit31": true,
-  "out_size": "0x10000",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x10000"
  },
  {
   "index": 58,
@@ -527,8 +527,8 @@
   "rom_end": "0xC83116",
   "size": 23182,
   "flag_bit31": true,
-  "out_size": "0x10000",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x10000"
  },
  {
   "index": 59,
@@ -536,8 +536,8 @@
   "rom_end": "0xC88BA4",
   "size": 23182,
   "flag_bit31": true,
-  "out_size": "0x10000",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x10000"
  },
  {
   "index": 60,
@@ -545,8 +545,8 @@
   "rom_end": "0xC8B2BC",
   "size": 10008,
   "flag_bit31": true,
-  "out_size": "0x8000",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x8000"
  },
  {
   "index": 61,
@@ -554,7 +554,6190 @@
   "rom_end": "0xC9B384",
   "size": 65736,
   "flag_bit31": true,
-  "out_size": "0x23BC0",
-  "method": "lz"
+  "method": "lz",
+  "out_size": "0x23BC0"
+ },
+ {
+  "index": 62,
+  "rom_start": "0xC9B384",
+  "rom_end": "0xC9BA50",
+  "size": 1740,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1640"
+ },
+ {
+  "index": 63,
+  "rom_start": "0xC9BA50",
+  "rom_end": "0xC9CBE2",
+  "size": 4498,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x2C00"
+ },
+ {
+  "index": 64,
+  "rom_start": "0xC9CBE2",
+  "rom_end": "0xC9E900",
+  "size": 7454,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4C40"
+ },
+ {
+  "index": 65,
+  "rom_start": "0xC9E900",
+  "rom_end": "0xC9EFB6",
+  "size": 1718,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1480"
+ },
+ {
+  "index": 66,
+  "rom_start": "0xC9EFB6",
+  "rom_end": "0xCA0C92",
+  "size": 7388,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4B00"
+ },
+ {
+  "index": 67,
+  "rom_start": "0xCA0C92",
+  "rom_end": "0xCA1306",
+  "size": 1652,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xC00"
+ },
+ {
+  "index": 68,
+  "rom_start": "0xCA1306",
+  "rom_end": "0xCA1AFE",
+  "size": 2040,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1500"
+ },
+ {
+  "index": 69,
+  "rom_start": "0xCA1AFE",
+  "rom_end": "0xCA1D84",
+  "size": 646,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xF80"
+ },
+ {
+  "index": 70,
+  "rom_start": "0xCA1D84",
+  "rom_end": "0xCA26A2",
+  "size": 2334,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1640"
+ },
+ {
+  "index": 71,
+  "rom_start": "0xCA26A2",
+  "rom_end": "0xCA3548",
+  "size": 3750,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3580"
+ },
+ {
+  "index": 72,
+  "rom_start": "0xCA3548",
+  "rom_end": "0xCA45C6",
+  "size": 4222,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3700"
+ },
+ {
+  "index": 73,
+  "rom_start": "0xCA45C6",
+  "rom_end": "0xCA5A5A",
+  "size": 5268,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3400"
+ },
+ {
+  "index": 74,
+  "rom_start": "0xCA5A5A",
+  "rom_end": "0xCA6E04",
+  "size": 5034,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x34C0"
+ },
+ {
+  "index": 75,
+  "rom_start": "0xCA6E04",
+  "rom_end": "0xCA7156",
+  "size": 850,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x600"
+ },
+ {
+  "index": 76,
+  "rom_start": "0xCA7156",
+  "rom_end": "0xCA79D0",
+  "size": 2170,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1640"
+ },
+ {
+  "index": 77,
+  "rom_start": "0xCA79D0",
+  "rom_end": "0xCA7F42",
+  "size": 1394,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xEC0"
+ },
+ {
+  "index": 78,
+  "rom_start": "0xCA7F42",
+  "rom_end": "0xCAACB8",
+  "size": 11638,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x8D40"
+ },
+ {
+  "index": 79,
+  "rom_start": "0xCAACB8",
+  "rom_end": "0xCB0FE2",
+  "size": 25386,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x90C0"
+ },
+ {
+  "index": 80,
+  "rom_start": "0xCB0FE2",
+  "rom_end": "0xCB21A4",
+  "size": 4546,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3700"
+ },
+ {
+  "index": 81,
+  "rom_start": "0xCB21A4",
+  "rom_end": "0xCB9C06",
+  "size": 31330,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x18100"
+ },
+ {
+  "index": 82,
+  "rom_start": "0xCB9C06",
+  "rom_end": "0xCBAF70",
+  "size": 4970,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1E00"
+ },
+ {
+  "index": 83,
+  "rom_start": "0xCBAF70",
+  "rom_end": "0xCBEB88",
+  "size": 15384,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x7C80"
+ },
+ {
+  "index": 84,
+  "rom_start": "0xCBEB88",
+  "rom_end": "0xCC0C28",
+  "size": 8352,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x5480"
+ },
+ {
+  "index": 85,
+  "rom_start": "0xCC0C28",
+  "rom_end": "0xCC0CAA",
+  "size": 130,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 86,
+  "rom_start": "0xCC0CAA",
+  "rom_end": "0xCC0D42",
+  "size": 152,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 87,
+  "rom_start": "0xCC0D42",
+  "rom_end": "0xCC0DC2",
+  "size": 128,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 88,
+  "rom_start": "0xCC0DC2",
+  "rom_end": "0xCC0E54",
+  "size": 146,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 89,
+  "rom_start": "0xCC0E54",
+  "rom_end": "0xCC0ED0",
+  "size": 124,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 90,
+  "rom_start": "0xCC0ED0",
+  "rom_end": "0xCC0F4C",
+  "size": 124,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 91,
+  "rom_start": "0xCC0F4C",
+  "rom_end": "0xCC0FB8",
+  "size": 108,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 92,
+  "rom_start": "0xCC0FB8",
+  "rom_end": "0xCC1022",
+  "size": 106,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 93,
+  "rom_start": "0xCC1022",
+  "rom_end": "0xCC10BA",
+  "size": 152,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 94,
+  "rom_start": "0xCC10BA",
+  "rom_end": "0xCC1144",
+  "size": 138,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 95,
+  "rom_start": "0xCC1144",
+  "rom_end": "0xCC11FC",
+  "size": 184,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 96,
+  "rom_start": "0xCC11FC",
+  "rom_end": "0xCC12B2",
+  "size": 182,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 97,
+  "rom_start": "0xCC12B2",
+  "rom_end": "0xCC1328",
+  "size": 118,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 98,
+  "rom_start": "0xCC1328",
+  "rom_end": "0xCC13E4",
+  "size": 188,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 99,
+  "rom_start": "0xCC13E4",
+  "rom_end": "0xCC1470",
+  "size": 140,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 100,
+  "rom_start": "0xCC1470",
+  "rom_end": "0xCC1508",
+  "size": 152,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 101,
+  "rom_start": "0xCC1508",
+  "rom_end": "0xCC1590",
+  "size": 136,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 102,
+  "rom_start": "0xCC1590",
+  "rom_end": "0xCC15D0",
+  "size": 64,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 103,
+  "rom_start": "0xCC15D0",
+  "rom_end": "0xCC1632",
+  "size": 98,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 104,
+  "rom_start": "0xCC1632",
+  "rom_end": "0xCC16A6",
+  "size": 116,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 105,
+  "rom_start": "0xCC16A6",
+  "rom_end": "0xCC1740",
+  "size": 154,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 106,
+  "rom_start": "0xCC1740",
+  "rom_end": "0xCC17B6",
+  "size": 118,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 107,
+  "rom_start": "0xCC17B6",
+  "rom_end": "0xCC1808",
+  "size": 82,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 108,
+  "rom_start": "0xCC1808",
+  "rom_end": "0xCC1872",
+  "size": 106,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 109,
+  "rom_start": "0xCC1872",
+  "rom_end": "0xCC18E4",
+  "size": 114,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 110,
+  "rom_start": "0xCC18E4",
+  "rom_end": "0xCC19A6",
+  "size": 194,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 111,
+  "rom_start": "0xCC19A6",
+  "rom_end": "0xCC1A26",
+  "size": 128,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 112,
+  "rom_start": "0xCC1A26",
+  "rom_end": "0xCC1ABC",
+  "size": 150,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 113,
+  "rom_start": "0xCC1ABC",
+  "rom_end": "0xCC1B46",
+  "size": 138,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 114,
+  "rom_start": "0xCC1B46",
+  "rom_end": "0xCC1BD4",
+  "size": 142,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 115,
+  "rom_start": "0xCC1BD4",
+  "rom_end": "0xCC1C86",
+  "size": 178,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 116,
+  "rom_start": "0xCC1C86",
+  "rom_end": "0xCC1D42",
+  "size": 188,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 117,
+  "rom_start": "0xCC1D42",
+  "rom_end": "0xCC1DCE",
+  "size": 140,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 118,
+  "rom_start": "0xCC1DCE",
+  "rom_end": "0xCC1E86",
+  "size": 184,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 119,
+  "rom_start": "0xCC1E86",
+  "rom_end": "0xCC1F12",
+  "size": 140,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 120,
+  "rom_start": "0xCC1F12",
+  "rom_end": "0xCC1F9E",
+  "size": 140,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 121,
+  "rom_start": "0xCC1F9E",
+  "rom_end": "0xCC200A",
+  "size": 108,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 122,
+  "rom_start": "0xCC200A",
+  "rom_end": "0xCC209E",
+  "size": 148,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 123,
+  "rom_start": "0xCC209E",
+  "rom_end": "0xCC2114",
+  "size": 118,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 124,
+  "rom_start": "0xCC2114",
+  "rom_end": "0xCC2192",
+  "size": 126,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 125,
+  "rom_start": "0xCC2192",
+  "rom_end": "0xCC221A",
+  "size": 136,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 126,
+  "rom_start": "0xCC221A",
+  "rom_end": "0xCC229E",
+  "size": 132,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 127,
+  "rom_start": "0xCC229E",
+  "rom_end": "0xCC2316",
+  "size": 120,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 128,
+  "rom_start": "0xCC2316",
+  "rom_end": "0xCC23E6",
+  "size": 208,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 129,
+  "rom_start": "0xCC23E6",
+  "rom_end": "0xCC2490",
+  "size": 170,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 130,
+  "rom_start": "0xCC2490",
+  "rom_end": "0xCC2504",
+  "size": 116,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 131,
+  "rom_start": "0xCC2504",
+  "rom_end": "0xCC259E",
+  "size": 154,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 132,
+  "rom_start": "0xCC259E",
+  "rom_end": "0xCC2624",
+  "size": 134,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 133,
+  "rom_start": "0xCC2624",
+  "rom_end": "0xCC268C",
+  "size": 104,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 134,
+  "rom_start": "0xCC268C",
+  "rom_end": "0xCC2700",
+  "size": 116,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 135,
+  "rom_start": "0xCC2700",
+  "rom_end": "0xCC279A",
+  "size": 154,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 136,
+  "rom_start": "0xCC279A",
+  "rom_end": "0xCC2826",
+  "size": 140,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 137,
+  "rom_start": "0xCC2826",
+  "rom_end": "0xCC28B0",
+  "size": 138,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 138,
+  "rom_start": "0xCC28B0",
+  "rom_end": "0xCC2936",
+  "size": 134,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 139,
+  "rom_start": "0xCC2936",
+  "rom_end": "0xCC29B2",
+  "size": 124,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 140,
+  "rom_start": "0xCC29B2",
+  "rom_end": "0xCC2A2C",
+  "size": 122,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 141,
+  "rom_start": "0xCC2A2C",
+  "rom_end": "0xCC2AD0",
+  "size": 164,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 142,
+  "rom_start": "0xCC2AD0",
+  "rom_end": "0xCC2B4C",
+  "size": 124,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 143,
+  "rom_start": "0xCC2B4C",
+  "rom_end": "0xCC2BC2",
+  "size": 118,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 144,
+  "rom_start": "0xCC2BC2",
+  "rom_end": "0xCC2C40",
+  "size": 126,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 145,
+  "rom_start": "0xCC2C40",
+  "rom_end": "0xCC2CAA",
+  "size": 106,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 146,
+  "rom_start": "0xCC2CAA",
+  "rom_end": "0xCC2D2C",
+  "size": 130,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 147,
+  "rom_start": "0xCC2D2C",
+  "rom_end": "0xCC2DAC",
+  "size": 128,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 148,
+  "rom_start": "0xCC2DAC",
+  "rom_end": "0xCC2E30",
+  "size": 132,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 149,
+  "rom_start": "0xCC2E30",
+  "rom_end": "0xCC2EA8",
+  "size": 120,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 150,
+  "rom_start": "0xCC2EA8",
+  "rom_end": "0xCC2F22",
+  "size": 122,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 151,
+  "rom_start": "0xCC2F22",
+  "rom_end": "0xCC2FAE",
+  "size": 140,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 152,
+  "rom_start": "0xCC2FAE",
+  "rom_end": "0xCC3064",
+  "size": 182,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 153,
+  "rom_start": "0xCC3064",
+  "rom_end": "0xCC30CC",
+  "size": 104,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 154,
+  "rom_start": "0xCC30CC",
+  "rom_end": "0xCC3148",
+  "size": 124,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 155,
+  "rom_start": "0xCC3148",
+  "rom_end": "0xCC31AC",
+  "size": 100,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 156,
+  "rom_start": "0xCC31AC",
+  "rom_end": "0xCC3254",
+  "size": 168,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 157,
+  "rom_start": "0xCC3254",
+  "rom_end": "0xCC32D2",
+  "size": 126,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 158,
+  "rom_start": "0xCC32D2",
+  "rom_end": "0xCC3350",
+  "size": 126,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 159,
+  "rom_start": "0xCC3350",
+  "rom_end": "0xCC33CA",
+  "size": 122,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 160,
+  "rom_start": "0xCC33CA",
+  "rom_end": "0xCC3462",
+  "size": 152,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 161,
+  "rom_start": "0xCC3462",
+  "rom_end": "0xCC34BC",
+  "size": 90,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 162,
+  "rom_start": "0xCC34BC",
+  "rom_end": "0xCC3530",
+  "size": 116,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 163,
+  "rom_start": "0xCC3530",
+  "rom_end": "0xCC35A8",
+  "size": 120,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 164,
+  "rom_start": "0xCC35A8",
+  "rom_end": "0xCC35FC",
+  "size": 84,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 165,
+  "rom_start": "0xCC35FC",
+  "rom_end": "0xCC366A",
+  "size": 110,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 166,
+  "rom_start": "0xCC366A",
+  "rom_end": "0xCC36C4",
+  "size": 90,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 167,
+  "rom_start": "0xCC36C4",
+  "rom_end": "0xCC373E",
+  "size": 122,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 168,
+  "rom_start": "0xCC373E",
+  "rom_end": "0xCC37B8",
+  "size": 122,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 169,
+  "rom_start": "0xCC37B8",
+  "rom_end": "0xCC383E",
+  "size": 134,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 170,
+  "rom_start": "0xCC383E",
+  "rom_end": "0xCC3896",
+  "size": 88,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 171,
+  "rom_start": "0xCC3896",
+  "rom_end": "0xCC392A",
+  "size": 148,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 172,
+  "rom_start": "0xCC392A",
+  "rom_end": "0xCC39C8",
+  "size": 158,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 173,
+  "rom_start": "0xCC39C8",
+  "rom_end": "0xCC3A94",
+  "size": 204,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 174,
+  "rom_start": "0xCC3A94",
+  "rom_end": "0xCC3B04",
+  "size": 112,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 175,
+  "rom_start": "0xCC3B04",
+  "rom_end": "0xCC3BA6",
+  "size": 162,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 176,
+  "rom_start": "0xCC3BA6",
+  "rom_end": "0xCC3C38",
+  "size": 146,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 177,
+  "rom_start": "0xCC3C38",
+  "rom_end": "0xCC3CB8",
+  "size": 128,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 178,
+  "rom_start": "0xCC3CB8",
+  "rom_end": "0xCC3D44",
+  "size": 140,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 179,
+  "rom_start": "0xCC3D44",
+  "rom_end": "0xCC3DAA",
+  "size": 102,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 180,
+  "rom_start": "0xCC3DAA",
+  "rom_end": "0xCC3DF6",
+  "size": 76,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 181,
+  "rom_start": "0xCC3DF6",
+  "rom_end": "0xCC3E48",
+  "size": 82,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 182,
+  "rom_start": "0xCC3E48",
+  "rom_end": "0xCC3EE6",
+  "size": 158,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 183,
+  "rom_start": "0xCC3EE6",
+  "rom_end": "0xCC3F5E",
+  "size": 120,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 184,
+  "rom_start": "0xCC3F5E",
+  "rom_end": "0xCC3FCA",
+  "size": 108,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 185,
+  "rom_start": "0xCC3FCA",
+  "rom_end": "0xCC4050",
+  "size": 134,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 186,
+  "rom_start": "0xCC4050",
+  "rom_end": "0xCC40DC",
+  "size": 140,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 187,
+  "rom_start": "0xCC40DC",
+  "rom_end": "0xCC4144",
+  "size": 104,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 188,
+  "rom_start": "0xCC4144",
+  "rom_end": "0xCC41EC",
+  "size": 168,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 189,
+  "rom_start": "0xCC41EC",
+  "rom_end": "0xCC4268",
+  "size": 124,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 190,
+  "rom_start": "0xCC4268",
+  "rom_end": "0xCC42FA",
+  "size": 146,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 191,
+  "rom_start": "0xCC42FA",
+  "rom_end": "0xCC43AC",
+  "size": 178,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 192,
+  "rom_start": "0xCC43AC",
+  "rom_end": "0xCC4400",
+  "size": 84,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 193,
+  "rom_start": "0xCC4400",
+  "rom_end": "0xCC445A",
+  "size": 90,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 194,
+  "rom_start": "0xCC445A",
+  "rom_end": "0xCC4516",
+  "size": 188,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 195,
+  "rom_start": "0xCC4516",
+  "rom_end": "0xCC45E8",
+  "size": 210,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 196,
+  "rom_start": "0xCC45E8",
+  "rom_end": "0xCC4648",
+  "size": 96,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 197,
+  "rom_start": "0xCC4648",
+  "rom_end": "0xCC46AA",
+  "size": 98,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 198,
+  "rom_start": "0xCC46AA",
+  "rom_end": "0xCC46FA",
+  "size": 80,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 199,
+  "rom_start": "0xCC46FA",
+  "rom_end": "0xCC475C",
+  "size": 98,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 200,
+  "rom_start": "0xCC475C",
+  "rom_end": "0xCC47C4",
+  "size": 104,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 201,
+  "rom_start": "0xCC47C4",
+  "rom_end": "0xCC4858",
+  "size": 148,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 202,
+  "rom_start": "0xCC4858",
+  "rom_end": "0xCC4918",
+  "size": 192,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 203,
+  "rom_start": "0xCC4918",
+  "rom_end": "0xCC49A8",
+  "size": 144,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 204,
+  "rom_start": "0xCC49A8",
+  "rom_end": "0xCC49E4",
+  "size": 60,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 205,
+  "rom_start": "0xCC49E4",
+  "rom_end": "0xCC4A82",
+  "size": 158,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 206,
+  "rom_start": "0xCC4A82",
+  "rom_end": "0xCC4B20",
+  "size": 158,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 207,
+  "rom_start": "0xCC4B20",
+  "rom_end": "0xCC4BC2",
+  "size": 162,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 208,
+  "rom_start": "0xCC4BC2",
+  "rom_end": "0xCC4C80",
+  "size": 190,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 209,
+  "rom_start": "0xCC4C80",
+  "rom_end": "0xCC4D34",
+  "size": 180,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 210,
+  "rom_start": "0xCC4D34",
+  "rom_end": "0xCC4DEC",
+  "size": 184,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x180"
+ },
+ {
+  "index": 211,
+  "rom_start": "0xCC4DEC",
+  "rom_end": "0xCC4FDC",
+  "size": 496,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 212,
+  "rom_start": "0xCC4FDC",
+  "rom_end": "0xCC51D4",
+  "size": 504,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 213,
+  "rom_start": "0xCC51D4",
+  "rom_end": "0xCC53DE",
+  "size": 522,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 214,
+  "rom_start": "0xCC53DE",
+  "rom_end": "0xCC55C0",
+  "size": 482,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 215,
+  "rom_start": "0xCC55C0",
+  "rom_end": "0xCC57B4",
+  "size": 500,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 216,
+  "rom_start": "0xCC57B4",
+  "rom_end": "0xCC59C6",
+  "size": 530,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 217,
+  "rom_start": "0xCC59C6",
+  "rom_end": "0xCC5BC0",
+  "size": 506,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 218,
+  "rom_start": "0xCC5BC0",
+  "rom_end": "0xCC5DBA",
+  "size": 506,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 219,
+  "rom_start": "0xCC5DBA",
+  "rom_end": "0xCC5FAC",
+  "size": 498,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 220,
+  "rom_start": "0xCC5FAC",
+  "rom_end": "0xCC61A4",
+  "size": 504,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 221,
+  "rom_start": "0xCC61A4",
+  "rom_end": "0xCC63A8",
+  "size": 516,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 222,
+  "rom_start": "0xCC63A8",
+  "rom_end": "0xCC65AA",
+  "size": 514,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 223,
+  "rom_start": "0xCC65AA",
+  "rom_end": "0xCC67A8",
+  "size": 510,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 224,
+  "rom_start": "0xCC67A8",
+  "rom_end": "0xCC699A",
+  "size": 498,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 225,
+  "rom_start": "0xCC699A",
+  "rom_end": "0xCC6BA0",
+  "size": 518,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 226,
+  "rom_start": "0xCC6BA0",
+  "rom_end": "0xCC6DB8",
+  "size": 536,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 227,
+  "rom_start": "0xCC6DB8",
+  "rom_end": "0xCC6FB4",
+  "size": 508,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 228,
+  "rom_start": "0xCC6FB4",
+  "rom_end": "0xCC7194",
+  "size": 480,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 229,
+  "rom_start": "0xCC7194",
+  "rom_end": "0xCC738C",
+  "size": 504,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 230,
+  "rom_start": "0xCC738C",
+  "rom_end": "0xCC7580",
+  "size": 500,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 231,
+  "rom_start": "0xCC7580",
+  "rom_end": "0xCC7760",
+  "size": 480,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 232,
+  "rom_start": "0xCC7760",
+  "rom_end": "0xCC7960",
+  "size": 512,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 233,
+  "rom_start": "0xCC7960",
+  "rom_end": "0xCC7B70",
+  "size": 528,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 234,
+  "rom_start": "0xCC7B70",
+  "rom_end": "0xCC7D78",
+  "size": 520,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 235,
+  "rom_start": "0xCC7D78",
+  "rom_end": "0xCC7F74",
+  "size": 508,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 236,
+  "rom_start": "0xCC7F74",
+  "rom_end": "0xCC817C",
+  "size": 520,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 237,
+  "rom_start": "0xCC817C",
+  "rom_end": "0xCC8374",
+  "size": 504,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 238,
+  "rom_start": "0xCC8374",
+  "rom_end": "0xCC8572",
+  "size": 510,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 239,
+  "rom_start": "0xCC8572",
+  "rom_end": "0xCC8770",
+  "size": 510,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 240,
+  "rom_start": "0xCC8770",
+  "rom_end": "0xCC8952",
+  "size": 482,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 241,
+  "rom_start": "0xCC8952",
+  "rom_end": "0xCC8B46",
+  "size": 500,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 242,
+  "rom_start": "0xCC8B46",
+  "rom_end": "0xCC8D48",
+  "size": 514,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 243,
+  "rom_start": "0xCC8D48",
+  "rom_end": "0xCC8F50",
+  "size": 520,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 244,
+  "rom_start": "0xCC8F50",
+  "rom_end": "0xCC9158",
+  "size": 520,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 245,
+  "rom_start": "0xCC9158",
+  "rom_end": "0xCC9356",
+  "size": 510,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 246,
+  "rom_start": "0xCC9356",
+  "rom_end": "0xCC9548",
+  "size": 498,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 247,
+  "rom_start": "0xCC9548",
+  "rom_end": "0xCC9754",
+  "size": 524,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 248,
+  "rom_start": "0xCC9754",
+  "rom_end": "0xCC9960",
+  "size": 524,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 249,
+  "rom_start": "0xCC9960",
+  "rom_end": "0xCC9B74",
+  "size": 532,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 250,
+  "rom_start": "0xCC9B74",
+  "rom_end": "0xCC9D6C",
+  "size": 504,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 251,
+  "rom_start": "0xCC9D6C",
+  "rom_end": "0xCC9F72",
+  "size": 518,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 252,
+  "rom_start": "0xCC9F72",
+  "rom_end": "0xCCA174",
+  "size": 514,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 253,
+  "rom_start": "0xCCA174",
+  "rom_end": "0xCCA378",
+  "size": 516,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 254,
+  "rom_start": "0xCCA378",
+  "rom_end": "0xCCA58C",
+  "size": 532,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 255,
+  "rom_start": "0xCCA58C",
+  "rom_end": "0xCCA782",
+  "size": 502,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 256,
+  "rom_start": "0xCCA782",
+  "rom_end": "0xCCA98A",
+  "size": 520,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 257,
+  "rom_start": "0xCCA98A",
+  "rom_end": "0xCCAB9A",
+  "size": 528,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 258,
+  "rom_start": "0xCCAB9A",
+  "rom_end": "0xCCAD92",
+  "size": 504,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 259,
+  "rom_start": "0xCCAD92",
+  "rom_end": "0xCCAF7C",
+  "size": 490,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 260,
+  "rom_start": "0xCCAF7C",
+  "rom_end": "0xCCB18A",
+  "size": 526,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 261,
+  "rom_start": "0xCCB18A",
+  "rom_end": "0xCCB384",
+  "size": 506,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 262,
+  "rom_start": "0xCCB384",
+  "rom_end": "0xCCB58A",
+  "size": 518,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 263,
+  "rom_start": "0xCCB58A",
+  "rom_end": "0xCCB79C",
+  "size": 530,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 264,
+  "rom_start": "0xCCB79C",
+  "rom_end": "0xCCB99C",
+  "size": 512,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 265,
+  "rom_start": "0xCCB99C",
+  "rom_end": "0xCCBB30",
+  "size": 404,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 266,
+  "rom_start": "0xCCBB30",
+  "rom_end": "0xCCBD28",
+  "size": 504,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 267,
+  "rom_start": "0xCCBD28",
+  "rom_end": "0xCCBF26",
+  "size": 510,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x330"
+ },
+ {
+  "index": 268,
+  "rom_start": "0xCCBF26",
+  "rom_end": "0xCE2826",
+  "size": 92416,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x45E40"
+ },
+ {
+  "index": 269,
+  "rom_start": "0xCE2826",
+  "rom_end": "0xCEA434",
+  "size": 31758,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x17980"
+ },
+ {
+  "index": 270,
+  "rom_start": "0xCEA434",
+  "rom_end": "0xCECE64",
+  "size": 10800,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x6740"
+ },
+ {
+  "index": 271,
+  "rom_start": "0xCECE64",
+  "rom_end": "0xCF3308",
+  "size": 25764,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x10000"
+ },
+ {
+  "index": 272,
+  "rom_start": "0xCF3308",
+  "rom_end": "0xCF38CC",
+  "size": 1476,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1080"
+ },
+ {
+  "index": 273,
+  "rom_start": "0xCF38CC",
+  "rom_end": "0xCF4028",
+  "size": 1884,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 274,
+  "rom_start": "0xCF4028",
+  "rom_end": "0xCF47BC",
+  "size": 1940,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 275,
+  "rom_start": "0xCF47BC",
+  "rom_end": "0xCF4F50",
+  "size": 1940,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 276,
+  "rom_start": "0xCF4F50",
+  "rom_end": "0xCF5668",
+  "size": 1816,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 277,
+  "rom_start": "0xCF5668",
+  "rom_end": "0xCF5DB6",
+  "size": 1870,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 278,
+  "rom_start": "0xCF5DB6",
+  "rom_end": "0xCF642E",
+  "size": 1656,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 279,
+  "rom_start": "0xCF642E",
+  "rom_end": "0xCF6B72",
+  "size": 1860,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 280,
+  "rom_start": "0xCF6B72",
+  "rom_end": "0xCF733E",
+  "size": 1996,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 281,
+  "rom_start": "0xCF733E",
+  "rom_end": "0xCF7AE0",
+  "size": 1954,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 282,
+  "rom_start": "0xCF7AE0",
+  "rom_end": "0xCF81F0",
+  "size": 1808,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 283,
+  "rom_start": "0xCF81F0",
+  "rom_end": "0xCF8A24",
+  "size": 2100,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 284,
+  "rom_start": "0xCF8A24",
+  "rom_end": "0xCF914A",
+  "size": 1830,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 285,
+  "rom_start": "0xCF914A",
+  "rom_end": "0xCF989A",
+  "size": 1872,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 286,
+  "rom_start": "0xCF989A",
+  "rom_end": "0xCF9F4C",
+  "size": 1714,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 287,
+  "rom_start": "0xCF9F4C",
+  "rom_end": "0xCFA780",
+  "size": 2100,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 288,
+  "rom_start": "0xCFA780",
+  "rom_end": "0xCFAF08",
+  "size": 1928,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 289,
+  "rom_start": "0xCFAF08",
+  "rom_end": "0xCFB71C",
+  "size": 2068,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 290,
+  "rom_start": "0xCFB71C",
+  "rom_end": "0xCFBF4E",
+  "size": 2098,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 291,
+  "rom_start": "0xCFBF4E",
+  "rom_end": "0xCFC73E",
+  "size": 2032,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 292,
+  "rom_start": "0xCFC73E",
+  "rom_end": "0xCFCE88",
+  "size": 1866,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 293,
+  "rom_start": "0xCFCE88",
+  "rom_end": "0xCFD642",
+  "size": 1978,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 294,
+  "rom_start": "0xCFD642",
+  "rom_end": "0xCFDDEE",
+  "size": 1964,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 295,
+  "rom_start": "0xCFDDEE",
+  "rom_end": "0xCFE5F6",
+  "size": 2056,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 296,
+  "rom_start": "0xCFE5F6",
+  "rom_end": "0xCFED82",
+  "size": 1932,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 297,
+  "rom_start": "0xCFED82",
+  "rom_end": "0xCFF486",
+  "size": 1796,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 298,
+  "rom_start": "0xCFF486",
+  "rom_end": "0xCFFC4E",
+  "size": 1992,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 299,
+  "rom_start": "0xCFFC4E",
+  "rom_end": "0xD0033C",
+  "size": 1774,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 300,
+  "rom_start": "0xD0033C",
+  "rom_end": "0xD00A98",
+  "size": 1884,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 301,
+  "rom_start": "0xD00A98",
+  "rom_end": "0xD0129C",
+  "size": 2052,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 302,
+  "rom_start": "0xD0129C",
+  "rom_end": "0xD01AE6",
+  "size": 2122,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 303,
+  "rom_start": "0xD01AE6",
+  "rom_end": "0xD021BA",
+  "size": 1748,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 304,
+  "rom_start": "0xD021BA",
+  "rom_end": "0xD02924",
+  "size": 1898,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 305,
+  "rom_start": "0xD02924",
+  "rom_end": "0xD03124",
+  "size": 2048,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 306,
+  "rom_start": "0xD03124",
+  "rom_end": "0xD038A8",
+  "size": 1924,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 307,
+  "rom_start": "0xD038A8",
+  "rom_end": "0xD03FE2",
+  "size": 1850,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 308,
+  "rom_start": "0xD03FE2",
+  "rom_end": "0xD04830",
+  "size": 2126,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 309,
+  "rom_start": "0xD04830",
+  "rom_end": "0xD04FD8",
+  "size": 1960,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 310,
+  "rom_start": "0xD04FD8",
+  "rom_end": "0xD05784",
+  "size": 1964,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 311,
+  "rom_start": "0xD05784",
+  "rom_end": "0xD05F8A",
+  "size": 2054,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 312,
+  "rom_start": "0xD05F8A",
+  "rom_end": "0xD06738",
+  "size": 1966,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 313,
+  "rom_start": "0xD06738",
+  "rom_end": "0xD06EC4",
+  "size": 1932,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 314,
+  "rom_start": "0xD06EC4",
+  "rom_end": "0xD075AA",
+  "size": 1766,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 315,
+  "rom_start": "0xD075AA",
+  "rom_end": "0xD07D0C",
+  "size": 1890,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 316,
+  "rom_start": "0xD07D0C",
+  "rom_end": "0xD084AE",
+  "size": 1954,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 317,
+  "rom_start": "0xD084AE",
+  "rom_end": "0xD08BF2",
+  "size": 1860,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 318,
+  "rom_start": "0xD08BF2",
+  "rom_end": "0xD093B8",
+  "size": 1990,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 319,
+  "rom_start": "0xD093B8",
+  "rom_end": "0xD09BB6",
+  "size": 2046,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 320,
+  "rom_start": "0xD09BB6",
+  "rom_end": "0xD0A2E2",
+  "size": 1836,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 321,
+  "rom_start": "0xD0A2E2",
+  "rom_end": "0xD0AA68",
+  "size": 1926,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 322,
+  "rom_start": "0xD0AA68",
+  "rom_end": "0xD0B226",
+  "size": 1982,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 323,
+  "rom_start": "0xD0B226",
+  "rom_end": "0xD0B9E6",
+  "size": 1984,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 324,
+  "rom_start": "0xD0B9E6",
+  "rom_end": "0xD0C150",
+  "size": 1898,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 325,
+  "rom_start": "0xD0C150",
+  "rom_end": "0xD0C8B0",
+  "size": 1888,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 326,
+  "rom_start": "0xD0C8B0",
+  "rom_end": "0xD0D090",
+  "size": 2016,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 327,
+  "rom_start": "0xD0D090",
+  "rom_end": "0xD0D7CA",
+  "size": 1850,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 328,
+  "rom_start": "0xD0D7CA",
+  "rom_end": "0xD0DF56",
+  "size": 1932,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 329,
+  "rom_start": "0xD0DF56",
+  "rom_end": "0xD0E700",
+  "size": 1962,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 330,
+  "rom_start": "0xD0E700",
+  "rom_end": "0xD0EED0",
+  "size": 2000,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 331,
+  "rom_start": "0xD0EED0",
+  "rom_end": "0xD0F6AC",
+  "size": 2012,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 332,
+  "rom_start": "0xD0F6AC",
+  "rom_end": "0xD0FE06",
+  "size": 1882,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 333,
+  "rom_start": "0xD0FE06",
+  "rom_end": "0xD1057C",
+  "size": 1910,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 334,
+  "rom_start": "0xD1057C",
+  "rom_end": "0xD10C2A",
+  "size": 1710,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 335,
+  "rom_start": "0xD10C2A",
+  "rom_end": "0xD1135C",
+  "size": 1842,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 336,
+  "rom_start": "0xD1135C",
+  "rom_end": "0xD11A88",
+  "size": 1836,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 337,
+  "rom_start": "0xD11A88",
+  "rom_end": "0xD121F6",
+  "size": 1902,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 338,
+  "rom_start": "0xD121F6",
+  "rom_end": "0xD12880",
+  "size": 1674,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 339,
+  "rom_start": "0xD12880",
+  "rom_end": "0xD12F38",
+  "size": 1720,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 340,
+  "rom_start": "0xD12F38",
+  "rom_end": "0xD1365E",
+  "size": 1830,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 341,
+  "rom_start": "0xD1365E",
+  "rom_end": "0xD13E12",
+  "size": 1972,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 342,
+  "rom_start": "0xD13E12",
+  "rom_end": "0xD144C6",
+  "size": 1716,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 343,
+  "rom_start": "0xD144C6",
+  "rom_end": "0xD14B84",
+  "size": 1726,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 344,
+  "rom_start": "0xD14B84",
+  "rom_end": "0xD15266",
+  "size": 1762,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 345,
+  "rom_start": "0xD15266",
+  "rom_end": "0xD159C2",
+  "size": 1884,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 346,
+  "rom_start": "0xD159C2",
+  "rom_end": "0xD16056",
+  "size": 1684,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 347,
+  "rom_start": "0xD16056",
+  "rom_end": "0xD1676E",
+  "size": 1816,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 348,
+  "rom_start": "0xD1676E",
+  "rom_end": "0xD16E86",
+  "size": 1816,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 349,
+  "rom_start": "0xD16E86",
+  "rom_end": "0xD1760C",
+  "size": 1926,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 350,
+  "rom_start": "0xD1760C",
+  "rom_end": "0xD17E4E",
+  "size": 2114,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 351,
+  "rom_start": "0xD17E4E",
+  "rom_end": "0xD185CE",
+  "size": 1920,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 352,
+  "rom_start": "0xD185CE",
+  "rom_end": "0xD18D56",
+  "size": 1928,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 353,
+  "rom_start": "0xD18D56",
+  "rom_end": "0xD19592",
+  "size": 2108,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 354,
+  "rom_start": "0xD19592",
+  "rom_end": "0xD19D56",
+  "size": 1988,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 355,
+  "rom_start": "0xD19D56",
+  "rom_end": "0xD1A592",
+  "size": 2108,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 356,
+  "rom_start": "0xD1A592",
+  "rom_end": "0xD1ADAE",
+  "size": 2076,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 357,
+  "rom_start": "0xD1ADAE",
+  "rom_end": "0xD1B4F0",
+  "size": 1858,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 358,
+  "rom_start": "0xD1B4F0",
+  "rom_end": "0xD1BB82",
+  "size": 1682,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 359,
+  "rom_start": "0xD1BB82",
+  "rom_end": "0xD1C2FC",
+  "size": 1914,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 360,
+  "rom_start": "0xD1C2FC",
+  "rom_end": "0xD1C9F8",
+  "size": 1788,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 361,
+  "rom_start": "0xD1C9F8",
+  "rom_end": "0xD1D1C2",
+  "size": 1994,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 362,
+  "rom_start": "0xD1D1C2",
+  "rom_end": "0xD1D9B2",
+  "size": 2032,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 363,
+  "rom_start": "0xD1D9B2",
+  "rom_end": "0xD1E1B2",
+  "size": 2048,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 364,
+  "rom_start": "0xD1E1B2",
+  "rom_end": "0xD1E972",
+  "size": 1984,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 365,
+  "rom_start": "0xD1E972",
+  "rom_end": "0xD1F074",
+  "size": 1794,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 366,
+  "rom_start": "0xD1F074",
+  "rom_end": "0xD1F6DE",
+  "size": 1642,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 367,
+  "rom_start": "0xD1F6DE",
+  "rom_end": "0xD1FE2C",
+  "size": 1870,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 368,
+  "rom_start": "0xD1FE2C",
+  "rom_end": "0xD2058A",
+  "size": 1886,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 369,
+  "rom_start": "0xD2058A",
+  "rom_end": "0xD20DC6",
+  "size": 2108,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 370,
+  "rom_start": "0xD20DC6",
+  "rom_end": "0xD21454",
+  "size": 1678,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 371,
+  "rom_start": "0xD21454",
+  "rom_end": "0xD21BE0",
+  "size": 1932,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 372,
+  "rom_start": "0xD21BE0",
+  "rom_end": "0xD22324",
+  "size": 1860,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 373,
+  "rom_start": "0xD22324",
+  "rom_end": "0xD22A28",
+  "size": 1796,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 374,
+  "rom_start": "0xD22A28",
+  "rom_end": "0xD231E0",
+  "size": 1976,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 375,
+  "rom_start": "0xD231E0",
+  "rom_end": "0xD23940",
+  "size": 1888,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 376,
+  "rom_start": "0xD23940",
+  "rom_end": "0xD240B0",
+  "size": 1904,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 377,
+  "rom_start": "0xD240B0",
+  "rom_end": "0xD24844",
+  "size": 1940,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 378,
+  "rom_start": "0xD24844",
+  "rom_end": "0xD25034",
+  "size": 2032,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 379,
+  "rom_start": "0xD25034",
+  "rom_end": "0xD2504A",
+  "size": 22,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 380,
+  "rom_start": "0xD2504A",
+  "rom_end": "0xD25820",
+  "size": 2006,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 381,
+  "rom_start": "0xD25820",
+  "rom_end": "0xD25F10",
+  "size": 1776,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 382,
+  "rom_start": "0xD25F10",
+  "rom_end": "0xD266BE",
+  "size": 1966,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 383,
+  "rom_start": "0xD266BE",
+  "rom_end": "0xD26DC0",
+  "size": 1794,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 384,
+  "rom_start": "0xD26DC0",
+  "rom_end": "0xD27602",
+  "size": 2114,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 385,
+  "rom_start": "0xD27602",
+  "rom_end": "0xD27DD2",
+  "size": 2000,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 386,
+  "rom_start": "0xD27DD2",
+  "rom_end": "0xD285A0",
+  "size": 1998,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 387,
+  "rom_start": "0xD285A0",
+  "rom_end": "0xD28C56",
+  "size": 1718,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 388,
+  "rom_start": "0xD28C56",
+  "rom_end": "0xD293F2",
+  "size": 1948,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 389,
+  "rom_start": "0xD293F2",
+  "rom_end": "0xD29B14",
+  "size": 1826,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 390,
+  "rom_start": "0xD29B14",
+  "rom_end": "0xD2A264",
+  "size": 1872,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 391,
+  "rom_start": "0xD2A264",
+  "rom_end": "0xD2AA0A",
+  "size": 1958,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 392,
+  "rom_start": "0xD2AA0A",
+  "rom_end": "0xD2B190",
+  "size": 1926,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 393,
+  "rom_start": "0xD2B190",
+  "rom_end": "0xD2B99E",
+  "size": 2062,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 394,
+  "rom_start": "0xD2B99E",
+  "rom_end": "0xD2C1B0",
+  "size": 2066,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 395,
+  "rom_start": "0xD2C1B0",
+  "rom_end": "0xD2C94C",
+  "size": 1948,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 396,
+  "rom_start": "0xD2C94C",
+  "rom_end": "0xD2D16C",
+  "size": 2080,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 397,
+  "rom_start": "0xD2D16C",
+  "rom_end": "0xD2D8CC",
+  "size": 1888,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 398,
+  "rom_start": "0xD2D8CC",
+  "rom_end": "0xD2E0A4",
+  "size": 2008,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 399,
+  "rom_start": "0xD2E0A4",
+  "rom_end": "0xD2E8C0",
+  "size": 2076,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 400,
+  "rom_start": "0xD2E8C0",
+  "rom_end": "0xD2F048",
+  "size": 1928,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 401,
+  "rom_start": "0xD2F048",
+  "rom_end": "0xD2F7AC",
+  "size": 1892,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 402,
+  "rom_start": "0xD2F7AC",
+  "rom_end": "0xD2FFBA",
+  "size": 2062,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 403,
+  "rom_start": "0xD2FFBA",
+  "rom_end": "0xD306A2",
+  "size": 1768,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 404,
+  "rom_start": "0xD306A2",
+  "rom_end": "0xD30E4E",
+  "size": 1964,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 405,
+  "rom_start": "0xD30E4E",
+  "rom_end": "0xD3156C",
+  "size": 1822,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 406,
+  "rom_start": "0xD3156C",
+  "rom_end": "0xD31D5E",
+  "size": 2034,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 407,
+  "rom_start": "0xD31D5E",
+  "rom_end": "0xD3242C",
+  "size": 1742,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 408,
+  "rom_start": "0xD3242C",
+  "rom_end": "0xD32B7A",
+  "size": 1870,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 409,
+  "rom_start": "0xD32B7A",
+  "rom_end": "0xD332C8",
+  "size": 1870,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 410,
+  "rom_start": "0xD332C8",
+  "rom_end": "0xD33B74",
+  "size": 2220,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 411,
+  "rom_start": "0xD33B74",
+  "rom_end": "0xD34258",
+  "size": 1764,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 412,
+  "rom_start": "0xD34258",
+  "rom_end": "0xD349D8",
+  "size": 1920,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x900"
+ },
+ {
+  "index": 413,
+  "rom_start": "0xD349D8",
+  "rom_end": "0xD36E50",
+  "size": 9336,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 414,
+  "rom_start": "0xD36E50",
+  "rom_end": "0xD392D6",
+  "size": 9350,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 415,
+  "rom_start": "0xD392D6",
+  "rom_end": "0xD3B234",
+  "size": 8030,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 416,
+  "rom_start": "0xD3B234",
+  "rom_end": "0xD3D892",
+  "size": 9822,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 417,
+  "rom_start": "0xD3D892",
+  "rom_end": "0xD3F76C",
+  "size": 7898,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 418,
+  "rom_start": "0xD3F76C",
+  "rom_end": "0xD42220",
+  "size": 10932,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 419,
+  "rom_start": "0xD42220",
+  "rom_end": "0xD44FCE",
+  "size": 11694,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 420,
+  "rom_start": "0xD44FCE",
+  "rom_end": "0xD47C16",
+  "size": 11336,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 421,
+  "rom_start": "0xD47C16",
+  "rom_end": "0xD4A49E",
+  "size": 10376,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 422,
+  "rom_start": "0xD4A49E",
+  "rom_end": "0xD4C68A",
+  "size": 8684,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 423,
+  "rom_start": "0xD4C68A",
+  "rom_end": "0xD4E732",
+  "size": 8360,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 424,
+  "rom_start": "0xD4E732",
+  "rom_end": "0xD5060C",
+  "size": 7898,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 425,
+  "rom_start": "0xD5060C",
+  "rom_end": "0xD531D6",
+  "size": 11210,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 426,
+  "rom_start": "0xD531D6",
+  "rom_end": "0xD55D36",
+  "size": 11104,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 427,
+  "rom_start": "0xD55D36",
+  "rom_end": "0xD58860",
+  "size": 11050,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 428,
+  "rom_start": "0xD58860",
+  "rom_end": "0xD5B048",
+  "size": 10216,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 429,
+  "rom_start": "0xD5B048",
+  "rom_end": "0xD5CDCC",
+  "size": 7556,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 430,
+  "rom_start": "0xD5CDCC",
+  "rom_end": "0xD5F600",
+  "size": 10292,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 431,
+  "rom_start": "0xD5F600",
+  "rom_end": "0xD6258C",
+  "size": 12172,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 432,
+  "rom_start": "0xD6258C",
+  "rom_end": "0xD64CDE",
+  "size": 10066,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 433,
+  "rom_start": "0xD64CDE",
+  "rom_end": "0xD66CC2",
+  "size": 8164,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 434,
+  "rom_start": "0xD66CC2",
+  "rom_end": "0xD6976C",
+  "size": 10922,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 435,
+  "rom_start": "0xD6976C",
+  "rom_end": "0xD6C0CE",
+  "size": 10594,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 436,
+  "rom_start": "0xD6C0CE",
+  "rom_end": "0xD6E52A",
+  "size": 9308,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 437,
+  "rom_start": "0xD6E52A",
+  "rom_end": "0xD70C38",
+  "size": 9998,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 438,
+  "rom_start": "0xD70C38",
+  "rom_end": "0xD72F9A",
+  "size": 9058,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 439,
+  "rom_start": "0xD72F9A",
+  "rom_end": "0xD74F92",
+  "size": 8184,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 440,
+  "rom_start": "0xD74F92",
+  "rom_end": "0xD75424",
+  "size": 1170,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 441,
+  "rom_start": "0xD75424",
+  "rom_end": "0xD77D28",
+  "size": 10500,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 442,
+  "rom_start": "0xD77D28",
+  "rom_end": "0xD791B0",
+  "size": 5256,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3000"
+ },
+ {
+  "index": 443,
+  "rom_start": "0xD791B0",
+  "rom_end": "0xD7BCAE",
+  "size": 11006,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4280"
+ },
+ {
+  "index": 444,
+  "rom_start": "0xD7BCAE",
+  "rom_end": "0xD9FCBC",
+  "size": 147470,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x375F0"
+ },
+ {
+  "index": 445,
+  "rom_start": "0xD9FCBC",
+  "rom_end": "0xDB1790",
+  "size": 72404,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1AF70"
+ },
+ {
+  "index": 446,
+  "rom_start": "0xDB1790",
+  "rom_end": "0xDB6D80",
+  "size": 22000,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x8800"
+ },
+ {
+  "index": 447,
+  "rom_start": "0xDB6D80",
+  "rom_end": "0xDCE01A",
+  "size": 94874,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x24340"
+ },
+ {
+  "index": 448,
+  "rom_start": "0xDCE01A",
+  "rom_end": "0xDD2E1E",
+  "size": 19972,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x9290"
+ },
+ {
+  "index": 449,
+  "rom_start": "0xDD2E1E",
+  "rom_end": "0xDF6F62",
+  "size": 147780,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x371A0"
+ },
+ {
+  "index": 450,
+  "rom_start": "0xDF6F62",
+  "rom_end": "0xE08CA0",
+  "size": 73022,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1AFE0"
+ },
+ {
+  "index": 451,
+  "rom_start": "0xE08CA0",
+  "rom_end": "0xE0E3AC",
+  "size": 22284,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x8940"
+ },
+ {
+  "index": 452,
+  "rom_start": "0xE0E3AC",
+  "rom_end": "0xE25296",
+  "size": 93930,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x23280"
+ },
+ {
+  "index": 453,
+  "rom_start": "0xE25296",
+  "rom_end": "0xE2882C",
+  "size": 13718,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4200"
+ },
+ {
+  "index": 454,
+  "rom_start": "0xE2882C",
+  "rom_end": "0xE2BC60",
+  "size": 13364,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4200"
+ },
+ {
+  "index": 455,
+  "rom_start": "0xE2BC60",
+  "rom_end": "0xE2F1E0",
+  "size": 13696,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4200"
+ },
+ {
+  "index": 456,
+  "rom_start": "0xE2F1E0",
+  "rom_end": "0xE32404",
+  "size": 12836,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3F00"
+ },
+ {
+  "index": 457,
+  "rom_start": "0xE32404",
+  "rom_end": "0xE363C8",
+  "size": 16324,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4200"
+ },
+ {
+  "index": 458,
+  "rom_start": "0xE363C8",
+  "rom_end": "0xE3A4BA",
+  "size": 16626,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4200"
+ },
+ {
+  "index": 459,
+  "rom_start": "0xE3A4BA",
+  "rom_end": "0xE3E6BA",
+  "size": 16896,
+  "flag_bit31": false,
+  "method": "raw",
+  "out_size": "0x4200"
+ },
+ {
+  "index": 460,
+  "rom_start": "0xE3E6BA",
+  "rom_end": "0xE426AA",
+  "size": 16368,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4200"
+ },
+ {
+  "index": 461,
+  "rom_start": "0xE426AA",
+  "rom_end": "0xE4294C",
+  "size": 674,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x300"
+ },
+ {
+  "index": 462,
+  "rom_start": "0xE4294C",
+  "rom_end": "0xE43280",
+  "size": 2356,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xC00"
+ },
+ {
+  "index": 463,
+  "rom_start": "0xE43280",
+  "rom_end": "0xE4FCC2",
+  "size": 51778,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x18370"
+ },
+ {
+  "index": 464,
+  "rom_start": "0xE4FCC2",
+  "rom_end": "0xE53BF0",
+  "size": 16174,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4000"
+ },
+ {
+  "index": 465,
+  "rom_start": "0xE53BF0",
+  "rom_end": "0xE548E4",
+  "size": 3316,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1C10"
+ },
+ {
+  "index": 466,
+  "rom_start": "0xE548E4",
+  "rom_end": "0xE58840",
+  "size": 16220,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x60C0"
+ },
+ {
+  "index": 467,
+  "rom_start": "0xE58840",
+  "rom_end": "0xE5BC08",
+  "size": 13256,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x5860"
+ },
+ {
+  "index": 468,
+  "rom_start": "0xE5BC08",
+  "rom_end": "0xE6E752",
+  "size": 76618,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x25800"
+ },
+ {
+  "index": 469,
+  "rom_start": "0xE6E752",
+  "rom_end": "0xE6EC4E",
+  "size": 1276,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x8A0"
+ },
+ {
+  "index": 470,
+  "rom_start": "0xE6EC4E",
+  "rom_end": "0xE6F006",
+  "size": 952,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x7B0"
+ },
+ {
+  "index": 471,
+  "rom_start": "0xE6F006",
+  "rom_end": "0xE6F24E",
+  "size": 584,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3A0"
+ },
+ {
+  "index": 472,
+  "rom_start": "0xE6F24E",
+  "rom_end": "0xE6F34E",
+  "size": 256,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x170"
+ },
+ {
+  "index": 473,
+  "rom_start": "0xE6F34E",
+  "rom_end": "0xE6F812",
+  "size": 1220,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x7F0"
+ },
+ {
+  "index": 474,
+  "rom_start": "0xE6F812",
+  "rom_end": "0xE6FB1C",
+  "size": 778,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x550"
+ },
+ {
+  "index": 475,
+  "rom_start": "0xE6FB1C",
+  "rom_end": "0xE70062",
+  "size": 1350,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xAB0"
+ },
+ {
+  "index": 476,
+  "rom_start": "0xE70062",
+  "rom_end": "0xE7034C",
+  "size": 746,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x550"
+ },
+ {
+  "index": 477,
+  "rom_start": "0xE7034C",
+  "rom_end": "0xE70A40",
+  "size": 1780,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xBB0"
+ },
+ {
+  "index": 478,
+  "rom_start": "0xE70A40",
+  "rom_end": "0xE70E6A",
+  "size": 1066,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x6B0"
+ },
+ {
+  "index": 479,
+  "rom_start": "0xE70E6A",
+  "rom_end": "0xE7155A",
+  "size": 1776,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xBB0"
+ },
+ {
+  "index": 480,
+  "rom_start": "0xE7155A",
+  "rom_end": "0xE71998",
+  "size": 1086,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x6B0"
+ },
+ {
+  "index": 481,
+  "rom_start": "0xE71998",
+  "rom_end": "0xE7207C",
+  "size": 1764,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xBB0"
+ },
+ {
+  "index": 482,
+  "rom_start": "0xE7207C",
+  "rom_end": "0xE724B2",
+  "size": 1078,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x6B0"
+ },
+ {
+  "index": 483,
+  "rom_start": "0xE724B2",
+  "rom_end": "0xE72A40",
+  "size": 1422,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x9C0"
+ },
+ {
+  "index": 484,
+  "rom_start": "0xE72A40",
+  "rom_end": "0xE72D14",
+  "size": 724,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4D0"
+ },
+ {
+  "index": 485,
+  "rom_start": "0xE72D14",
+  "rom_end": "0xE7323C",
+  "size": 1320,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xAD0"
+ },
+ {
+  "index": 486,
+  "rom_start": "0xE7323C",
+  "rom_end": "0xE73502",
+  "size": 710,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x480"
+ },
+ {
+  "index": 487,
+  "rom_start": "0xE73502",
+  "rom_end": "0xE73BF8",
+  "size": 1782,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xBB0"
+ },
+ {
+  "index": 488,
+  "rom_start": "0xE73BF8",
+  "rom_end": "0xE74036",
+  "size": 1086,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x6B0"
+ },
+ {
+  "index": 489,
+  "rom_start": "0xE74036",
+  "rom_end": "0xE745C8",
+  "size": 1426,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x9C0"
+ },
+ {
+  "index": 490,
+  "rom_start": "0xE745C8",
+  "rom_end": "0xE748A6",
+  "size": 734,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4D0"
+ },
+ {
+  "index": 491,
+  "rom_start": "0xE748A6",
+  "rom_end": "0xE74D1C",
+  "size": 1142,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xCD0"
+ },
+ {
+  "index": 492,
+  "rom_start": "0xE74D1C",
+  "rom_end": "0xE7699E",
+  "size": 7298,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4030"
+ },
+ {
+  "index": 493,
+  "rom_start": "0xE7699E",
+  "rom_end": "0xE78B68",
+  "size": 8650,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4580"
+ },
+ {
+  "index": 494,
+  "rom_start": "0xE78B68",
+  "rom_end": "0xE78D16",
+  "size": 430,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x990"
+ },
+ {
+  "index": 495,
+  "rom_start": "0xE78D16",
+  "rom_end": "0xE78EC2",
+  "size": 428,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x990"
+ },
+ {
+  "index": 496,
+  "rom_start": "0xE78EC2",
+  "rom_end": "0xE7905A",
+  "size": 408,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x990"
+ },
+ {
+  "index": 497,
+  "rom_start": "0xE7905A",
+  "rom_end": "0xE79214",
+  "size": 442,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x900"
+ },
+ {
+  "index": 498,
+  "rom_start": "0xE79214",
+  "rom_end": "0xE793C0",
+  "size": 428,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x990"
+ },
+ {
+  "index": 499,
+  "rom_start": "0xE793C0",
+  "rom_end": "0xE79552",
+  "size": 402,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x900"
+ },
+ {
+  "index": 500,
+  "rom_start": "0xE79552",
+  "rom_end": "0xE79932",
+  "size": 992,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x1BB0"
+ },
+ {
+  "index": 501,
+  "rom_start": "0xE79932",
+  "rom_end": "0xE79FDA",
+  "size": 1704,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x3090"
+ },
+ {
+  "index": 502,
+  "rom_start": "0xE79FDA",
+  "rom_end": "0xE7A0DC",
+  "size": 258,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x1B0"
+ },
+ {
+  "index": 503,
+  "rom_start": "0xE7A0DC",
+  "rom_end": "0xE7A17E",
+  "size": 162,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x130"
+ },
+ {
+  "index": 504,
+  "rom_start": "0xE7A17E",
+  "rom_end": "0xE7A2BC",
+  "size": 318,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x230"
+ },
+ {
+  "index": 505,
+  "rom_start": "0xE7A2BC",
+  "rom_end": "0xE7A43A",
+  "size": 382,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x2C0"
+ },
+ {
+  "index": 506,
+  "rom_start": "0xE7A43A",
+  "rom_end": "0xE7A57C",
+  "size": 322,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x230"
+ },
+ {
+  "index": 507,
+  "rom_start": "0xE7A57C",
+  "rom_end": "0xE7A6FE",
+  "size": 386,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x2C0"
+ },
+ {
+  "index": 508,
+  "rom_start": "0xE7A6FE",
+  "rom_end": "0xE7A7A2",
+  "size": 164,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x130"
+ },
+ {
+  "index": 509,
+  "rom_start": "0xE7A7A2",
+  "rom_end": "0xE7B806",
+  "size": 4196,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x3A50"
+ },
+ {
+  "index": 510,
+  "rom_start": "0xE7B806",
+  "rom_end": "0xE7CA5A",
+  "size": 4692,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x54D0"
+ },
+ {
+  "index": 511,
+  "rom_start": "0xE7CA5A",
+  "rom_end": "0xE7DC98",
+  "size": 4670,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x5520"
+ },
+ {
+  "index": 512,
+  "rom_start": "0xE7DC98",
+  "rom_end": "0xE7E602",
+  "size": 2410,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x4740"
+ },
+ {
+  "index": 513,
+  "rom_start": "0xE7E602",
+  "rom_end": "0xE804D0",
+  "size": 7886,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0xC870"
+ },
+ {
+  "index": 514,
+  "rom_start": "0xE804D0",
+  "rom_end": "0xE82A1E",
+  "size": 9550,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x13340"
+ },
+ {
+  "index": 515,
+  "rom_start": "0xE82A1E",
+  "rom_end": "0xE85AB6",
+  "size": 12440,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x13ED0"
+ },
+ {
+  "index": 516,
+  "rom_start": "0xE85AB6",
+  "rom_end": "0xE88CAA",
+  "size": 12788,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x11A10"
+ },
+ {
+  "index": 517,
+  "rom_start": "0xE88CAA",
+  "rom_end": "0xE88FF8",
+  "size": 846,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x1070"
+ },
+ {
+  "index": 518,
+  "rom_start": "0xE88FF8",
+  "rom_end": "0xE8C892",
+  "size": 14490,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x14740"
+ },
+ {
+  "index": 519,
+  "rom_start": "0xE8C892",
+  "rom_end": "0xE8E8FE",
+  "size": 8300,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0xEC80"
+ },
+ {
+  "index": 520,
+  "rom_start": "0xE8E8FE",
+  "rom_end": "0xE91AEA",
+  "size": 12780,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x144B0"
+ },
+ {
+  "index": 521,
+  "rom_start": "0xE91AEA",
+  "rom_end": "0xE94A3A",
+  "size": 12112,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x140E0"
+ },
+ {
+  "index": 522,
+  "rom_start": "0xE94A3A",
+  "rom_end": "0xE96190",
+  "size": 5974,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0xB5F0"
+ },
+ {
+  "index": 523,
+  "rom_start": "0xE96190",
+  "rom_end": "0xE977C4",
+  "size": 5684,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x8C00"
+ },
+ {
+  "index": 524,
+  "rom_start": "0xE977C4",
+  "rom_end": "0xE9A176",
+  "size": 10674,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x12E50"
+ },
+ {
+  "index": 525,
+  "rom_start": "0xE9A176",
+  "rom_end": "0xE9A63A",
+  "size": 1220,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x20B0"
+ },
+ {
+  "index": 526,
+  "rom_start": "0xE9A63A",
+  "rom_end": "0xE9A9CC",
+  "size": 914,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x1760"
+ },
+ {
+  "index": 527,
+  "rom_start": "0xE9A9CC",
+  "rom_end": "0xE9A9E0",
+  "size": 20,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x20"
+ },
+ {
+  "index": 528,
+  "rom_start": "0xE9A9E0",
+  "rom_end": "0xE9A9F4",
+  "size": 20,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x20"
+ },
+ {
+  "index": 529,
+  "rom_start": "0xE9A9F4",
+  "rom_end": "0xE9AA08",
+  "size": 20,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x20"
+ },
+ {
+  "index": 530,
+  "rom_start": "0xE9AA08",
+  "rom_end": "0xE9AA1C",
+  "size": 20,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x20"
+ },
+ {
+  "index": 531,
+  "rom_start": "0xE9AA1C",
+  "rom_end": "0xE9AA30",
+  "size": 20,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x20"
+ },
+ {
+  "index": 532,
+  "rom_start": "0xE9AA30",
+  "rom_end": "0xE9AA44",
+  "size": 20,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x20"
+ },
+ {
+  "index": 533,
+  "rom_start": "0xE9AA44",
+  "rom_end": "0xE9AA58",
+  "size": 20,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x20"
+ },
+ {
+  "index": 534,
+  "rom_start": "0xE9AA58",
+  "rom_end": "0xE9AA6C",
+  "size": 20,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x20"
+ },
+ {
+  "index": 535,
+  "rom_start": "0xE9AA6C",
+  "rom_end": "0xE9AA80",
+  "size": 20,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x20"
+ },
+ {
+  "index": 536,
+  "rom_start": "0xE9AA80",
+  "rom_end": "0xE9AA94",
+  "size": 20,
+  "flag_bit31": true,
+  "method": "zlib",
+  "out_size": "0x20"
+ },
+ {
+  "index": 537,
+  "rom_start": "0xE9AA94",
+  "rom_end": "0xE9B52A",
+  "size": 2710,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1A40"
+ },
+ {
+  "index": 538,
+  "rom_start": "0xE9B52A",
+  "rom_end": "0xE9C06C",
+  "size": 2882,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1790"
+ },
+ {
+  "index": 539,
+  "rom_start": "0xE9C06C",
+  "rom_end": "0xE9D2B6",
+  "size": 4682,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x2870"
+ },
+ {
+  "index": 540,
+  "rom_start": "0xE9D2B6",
+  "rom_end": "0xE9DCF8",
+  "size": 2626,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x17E0"
+ },
+ {
+  "index": 541,
+  "rom_start": "0xE9DCF8",
+  "rom_end": "0xE9E8D4",
+  "size": 3036,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1B20"
+ },
+ {
+  "index": 542,
+  "rom_start": "0xE9E8D4",
+  "rom_end": "0xE9F4EE",
+  "size": 3098,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1AB0"
+ },
+ {
+  "index": 543,
+  "rom_start": "0xE9F4EE",
+  "rom_end": "0xE9FF8E",
+  "size": 2720,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1830"
+ },
+ {
+  "index": 544,
+  "rom_start": "0xE9FF8E",
+  "rom_end": "0xEA0B34",
+  "size": 2982,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1340"
+ },
+ {
+  "index": 545,
+  "rom_start": "0xEA0B34",
+  "rom_end": "0xEA16EA",
+  "size": 2998,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4850"
+ },
+ {
+  "index": 546,
+  "rom_start": "0xEA16EA",
+  "rom_end": "0xEA18B0",
+  "size": 454,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xBE0"
+ },
+ {
+  "index": 547,
+  "rom_start": "0xEA18B0",
+  "rom_end": "0xEA444A",
+  "size": 11162,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x45D0"
+ },
+ {
+  "index": 548,
+  "rom_start": "0xEA444A",
+  "rom_end": "0xEA47EE",
+  "size": 932,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1610"
+ },
+ {
+  "index": 549,
+  "rom_start": "0xEA47EE",
+  "rom_end": "0xEA4A06",
+  "size": 536,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xB20"
+ },
+ {
+  "index": 550,
+  "rom_start": "0xEA4A06",
+  "rom_end": "0xEA4FBC",
+  "size": 1462,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3C50"
+ },
+ {
+  "index": 551,
+  "rom_start": "0xEA4FBC",
+  "rom_end": "0xEA5288",
+  "size": 716,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1840"
+ },
+ {
+  "index": 552,
+  "rom_start": "0xEA5288",
+  "rom_end": "0xEA7430",
+  "size": 8616,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3170"
+ },
+ {
+  "index": 553,
+  "rom_start": "0xEA7430",
+  "rom_end": "0xEAB764",
+  "size": 17204,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x81D0"
+ },
+ {
+  "index": 554,
+  "rom_start": "0xEAB764",
+  "rom_end": "0xEAFE6A",
+  "size": 18182,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x8BF0"
+ },
+ {
+  "index": 555,
+  "rom_start": "0xEAFE6A",
+  "rom_end": "0xEB2A4E",
+  "size": 11236,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x5850"
+ },
+ {
+  "index": 556,
+  "rom_start": "0xEB2A4E",
+  "rom_end": "0xEB57AE",
+  "size": 11616,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x5A80"
+ },
+ {
+  "index": 557,
+  "rom_start": "0xEB57AE",
+  "rom_end": "0xEB84B0",
+  "size": 11522,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x59D0"
+ },
+ {
+  "index": 558,
+  "rom_start": "0xEB84B0",
+  "rom_end": "0xEBBD9C",
+  "size": 14572,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x6E00"
+ },
+ {
+  "index": 559,
+  "rom_start": "0xEBBD9C",
+  "rom_end": "0xEBF680",
+  "size": 14564,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x6D70"
+ },
+ {
+  "index": 560,
+  "rom_start": "0xEBF680",
+  "rom_end": "0xEBF9BA",
+  "size": 826,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1A70"
+ },
+ {
+  "index": 561,
+  "rom_start": "0xEBF9BA",
+  "rom_end": "0xEC3250",
+  "size": 14486,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x6AD0"
+ },
+ {
+  "index": 562,
+  "rom_start": "0xEC3250",
+  "rom_end": "0xEC4404",
+  "size": 4532,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x2A00"
+ },
+ {
+  "index": 563,
+  "rom_start": "0xEC4404",
+  "rom_end": "0xEC46CA",
+  "size": 710,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xC30"
+ },
+ {
+  "index": 564,
+  "rom_start": "0xEC46CA",
+  "rom_end": "0xEC4888",
+  "size": 446,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x6C0"
+ },
+ {
+  "index": 565,
+  "rom_start": "0xEC4888",
+  "rom_end": "0xEC4AF6",
+  "size": 622,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x8F0"
+ },
+ {
+  "index": 566,
+  "rom_start": "0xEC4AF6",
+  "rom_end": "0xEC4D96",
+  "size": 672,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xA50"
+ },
+ {
+  "index": 567,
+  "rom_start": "0xEC4D96",
+  "rom_end": "0xEC5420",
+  "size": 1674,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xD30"
+ },
+ {
+  "index": 568,
+  "rom_start": "0xEC5420",
+  "rom_end": "0xEC55CA",
+  "size": 426,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x6B0"
+ },
+ {
+  "index": 569,
+  "rom_start": "0xEC55CA",
+  "rom_end": "0xEC57A0",
+  "size": 470,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0xC30"
+ },
+ {
+  "index": 570,
+  "rom_start": "0xEC57A0",
+  "rom_end": "0xEC5912",
+  "size": 370,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x7D0"
+ },
+ {
+  "index": 571,
+  "rom_start": "0xEC5912",
+  "rom_end": "0xEC5B66",
+  "size": 596,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x11B0"
+ },
+ {
+  "index": 572,
+  "rom_start": "0xEC5B66",
+  "rom_end": "0xEC89AC",
+  "size": 11846,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4000"
+ },
+ {
+  "index": 573,
+  "rom_start": "0xEC89AC",
+  "rom_end": "0xECAAF4",
+  "size": 8520,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 574,
+  "rom_start": "0xECAAF4",
+  "rom_end": "0xECC71E",
+  "size": 7210,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x35D0"
+ },
+ {
+  "index": 575,
+  "rom_start": "0xECC71E",
+  "rom_end": "0xECD4F4",
+  "size": 3542,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 576,
+  "rom_start": "0xECD4F4",
+  "rom_end": "0xECDE4E",
+  "size": 2394,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 577,
+  "rom_start": "0xECDE4E",
+  "rom_end": "0xECEC30",
+  "size": 3554,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 578,
+  "rom_start": "0xECEC30",
+  "rom_end": "0xECFCF0",
+  "size": 4288,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 579,
+  "rom_start": "0xECFCF0",
+  "rom_end": "0xED13EC",
+  "size": 5884,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 580,
+  "rom_start": "0xED13EC",
+  "rom_end": "0xED23AE",
+  "size": 4034,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x4800"
+ },
+ {
+  "index": 581,
+  "rom_start": "0xED23AE",
+  "rom_end": "0xED443E",
+  "size": 8336,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3680"
+ },
+ {
+  "index": 582,
+  "rom_start": "0xED443E",
+  "rom_end": "0xED5F26",
+  "size": 6888,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3040"
+ },
+ {
+  "index": 583,
+  "rom_start": "0xED5F26",
+  "rom_end": "0xED7C40",
+  "size": 7450,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 584,
+  "rom_start": "0xED7C40",
+  "rom_end": "0xED982A",
+  "size": 7146,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3080"
+ },
+ {
+  "index": 585,
+  "rom_start": "0xED982A",
+  "rom_end": "0xEDAD30",
+  "size": 5382,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3100"
+ },
+ {
+  "index": 586,
+  "rom_start": "0xEDAD30",
+  "rom_end": "0xEDBA86",
+  "size": 3414,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 587,
+  "rom_start": "0xEDBA86",
+  "rom_end": "0xEDC5EE",
+  "size": 2920,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 588,
+  "rom_start": "0xEDC5EE",
+  "rom_end": "0xEDE59C",
+  "size": 8110,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3400"
+ },
+ {
+  "index": 589,
+  "rom_start": "0xEDE59C",
+  "rom_end": "0xEE108E",
+  "size": 10994,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 590,
+  "rom_start": "0xEE108E",
+  "rom_end": "0xEE3B4C",
+  "size": 10942,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 591,
+  "rom_start": "0xEE3B4C",
+  "rom_end": "0xEE6604",
+  "size": 10936,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 592,
+  "rom_start": "0xEE6604",
+  "rom_end": "0xEE9120",
+  "size": 11036,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 593,
+  "rom_start": "0xEE9120",
+  "rom_end": "0xEEBC4A",
+  "size": 11050,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 594,
+  "rom_start": "0xEEBC4A",
+  "rom_end": "0xEEE6CE",
+  "size": 10884,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 595,
+  "rom_start": "0xEEE6CE",
+  "rom_end": "0xEF1160",
+  "size": 10898,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 596,
+  "rom_start": "0xEF1160",
+  "rom_end": "0xEF3C10",
+  "size": 10928,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 597,
+  "rom_start": "0xEF3C10",
+  "rom_end": "0xEF6778",
+  "size": 11112,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 598,
+  "rom_start": "0xEF6778",
+  "rom_end": "0xEF9320",
+  "size": 11176,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 599,
+  "rom_start": "0xEF9320",
+  "rom_end": "0xEFBDF6",
+  "size": 10966,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 600,
+  "rom_start": "0xEFBDF6",
+  "rom_end": "0xEFE8B0",
+  "size": 10938,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 601,
+  "rom_start": "0xEFE8B0",
+  "rom_end": "0xF01344",
+  "size": 10900,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 602,
+  "rom_start": "0xF01344",
+  "rom_end": "0xF03E78",
+  "size": 11060,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 603,
+  "rom_start": "0xF03E78",
+  "rom_end": "0xF0695E",
+  "size": 10982,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 604,
+  "rom_start": "0xF0695E",
+  "rom_end": "0xF093F2",
+  "size": 10900,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 605,
+  "rom_start": "0xF093F2",
+  "rom_end": "0xF0BE7C",
+  "size": 10890,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 606,
+  "rom_start": "0xF0BE7C",
+  "rom_end": "0xF0E982",
+  "size": 11014,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 607,
+  "rom_start": "0xF0E982",
+  "rom_end": "0xF1147A",
+  "size": 11000,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 608,
+  "rom_start": "0xF1147A",
+  "rom_end": "0xF13FD4",
+  "size": 11098,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 609,
+  "rom_start": "0xF13FD4",
+  "rom_end": "0xF16AD0",
+  "size": 11004,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 610,
+  "rom_start": "0xF16AD0",
+  "rom_end": "0xF1955E",
+  "size": 10894,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 611,
+  "rom_start": "0xF1955E",
+  "rom_end": "0xF1C062",
+  "size": 11012,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 612,
+  "rom_start": "0xF1C062",
+  "rom_end": "0xF1EB7A",
+  "size": 11032,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 613,
+  "rom_start": "0xF1EB7A",
+  "rom_end": "0xF21672",
+  "size": 11000,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 614,
+  "rom_start": "0xF21672",
+  "rom_end": "0xF241A4",
+  "size": 11058,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 615,
+  "rom_start": "0xF241A4",
+  "rom_end": "0xF26C70",
+  "size": 10956,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 616,
+  "rom_start": "0xF26C70",
+  "rom_end": "0xF2972A",
+  "size": 10938,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 617,
+  "rom_start": "0xF2972A",
+  "rom_end": "0xF2C1E6",
+  "size": 10940,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 618,
+  "rom_start": "0xF2C1E6",
+  "rom_end": "0xF2E53C",
+  "size": 9046,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3100"
+ },
+ {
+  "index": 619,
+  "rom_start": "0xF2E53C",
+  "rom_end": "0xF2FD66",
+  "size": 6186,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 620,
+  "rom_start": "0xF2FD66",
+  "rom_end": "0xF31696",
+  "size": 6448,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 621,
+  "rom_start": "0xF31696",
+  "rom_end": "0xF32F0A",
+  "size": 6260,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 622,
+  "rom_start": "0xF32F0A",
+  "rom_end": "0xF34752",
+  "size": 6216,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 623,
+  "rom_start": "0xF34752",
+  "rom_end": "0xF35FAA",
+  "size": 6232,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 624,
+  "rom_start": "0xF35FAA",
+  "rom_end": "0xF377C4",
+  "size": 6170,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 625,
+  "rom_start": "0xF377C4",
+  "rom_end": "0xF39026",
+  "size": 6242,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 626,
+  "rom_start": "0xF39026",
+  "rom_end": "0xF3A7F6",
+  "size": 6096,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 627,
+  "rom_start": "0xF3A7F6",
+  "rom_end": "0xF3BFA0",
+  "size": 6058,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 628,
+  "rom_start": "0xF3BFA0",
+  "rom_end": "0xF3D65C",
+  "size": 5820,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 629,
+  "rom_start": "0xF3D65C",
+  "rom_end": "0xF3EEE6",
+  "size": 6282,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 630,
+  "rom_start": "0xF3EEE6",
+  "rom_end": "0xF40762",
+  "size": 6268,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 631,
+  "rom_start": "0xF40762",
+  "rom_end": "0xF41FD4",
+  "size": 6258,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 632,
+  "rom_start": "0xF41FD4",
+  "rom_end": "0xF4371A",
+  "size": 5958,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 633,
+  "rom_start": "0xF4371A",
+  "rom_end": "0xF44F2C",
+  "size": 6162,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 634,
+  "rom_start": "0xF44F2C",
+  "rom_end": "0xF4676A",
+  "size": 6206,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 635,
+  "rom_start": "0xF4676A",
+  "rom_end": "0xF47FA0",
+  "size": 6198,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 636,
+  "rom_start": "0xF47FA0",
+  "rom_end": "0xF497BE",
+  "size": 6174,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 637,
+  "rom_start": "0xF497BE",
+  "rom_end": "0xF4B574",
+  "size": 7606,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 638,
+  "rom_start": "0xF4B574",
+  "rom_end": "0xF4CB80",
+  "size": 5644,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3080"
+ },
+ {
+  "index": 639,
+  "rom_start": "0xF4CB80",
+  "rom_end": "0xF4E1DC",
+  "size": 5724,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 640,
+  "rom_start": "0xF4E1DC",
+  "rom_end": "0xF4F85E",
+  "size": 5762,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 641,
+  "rom_start": "0xF4F85E",
+  "rom_end": "0xF50E56",
+  "size": 5624,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 642,
+  "rom_start": "0xF50E56",
+  "rom_end": "0xF523C6",
+  "size": 5488,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 643,
+  "rom_start": "0xF523C6",
+  "rom_end": "0xF53AA2",
+  "size": 5852,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 644,
+  "rom_start": "0xF53AA2",
+  "rom_end": "0xF55034",
+  "size": 5522,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 645,
+  "rom_start": "0xF55034",
+  "rom_end": "0xF56890",
+  "size": 6236,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 646,
+  "rom_start": "0xF56890",
+  "rom_end": "0xF58324",
+  "size": 6804,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 647,
+  "rom_start": "0xF58324",
+  "rom_end": "0xF59AC2",
+  "size": 6046,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 648,
+  "rom_start": "0xF59AC2",
+  "rom_end": "0xF5B102",
+  "size": 5696,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 649,
+  "rom_start": "0xF5B102",
+  "rom_end": "0xF5C972",
+  "size": 6256,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 650,
+  "rom_start": "0xF5C972",
+  "rom_end": "0xF5E63A",
+  "size": 7368,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 651,
+  "rom_start": "0xF5E63A",
+  "rom_end": "0xF606DC",
+  "size": 8354,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3400"
+ },
+ {
+  "index": 652,
+  "rom_start": "0xF606DC",
+  "rom_end": "0xF62676",
+  "size": 8090,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3380"
+ },
+ {
+  "index": 653,
+  "rom_start": "0xF62676",
+  "rom_end": "0xF645F4",
+  "size": 8062,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 654,
+  "rom_start": "0xF645F4",
+  "rom_end": "0xF65922",
+  "size": 4910,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 655,
+  "rom_start": "0xF65922",
+  "rom_end": "0xF66E1A",
+  "size": 5368,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3C00"
+ },
+ {
+  "index": 656,
+  "rom_start": "0xF66E1A",
+  "rom_end": "0xF673AA",
+  "size": 1424,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 657,
+  "rom_start": "0xF673AA",
+  "rom_end": "0xF697C6",
+  "size": 9244,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 658,
+  "rom_start": "0xF697C6",
+  "rom_end": "0xF6A7CA",
+  "size": 4100,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 659,
+  "rom_start": "0xF6A7CA",
+  "rom_end": "0xF6B8E8",
+  "size": 4382,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 660,
+  "rom_start": "0xF6B8E8",
+  "rom_end": "0xF6D662",
+  "size": 7546,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 661,
+  "rom_start": "0xF6D662",
+  "rom_end": "0xF6E2A6",
+  "size": 3140,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 662,
+  "rom_start": "0xF6E2A6",
+  "rom_end": "0xF6FEE4",
+  "size": 7230,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 663,
+  "rom_start": "0xF6FEE4",
+  "rom_end": "0xF704B2",
+  "size": 1486,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 664,
+  "rom_start": "0xF704B2",
+  "rom_end": "0xF7086E",
+  "size": 956,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 665,
+  "rom_start": "0xF7086E",
+  "rom_end": "0xF70BBE",
+  "size": 848,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 666,
+  "rom_start": "0xF70BBE",
+  "rom_end": "0xF7198A",
+  "size": 3532,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 667,
+  "rom_start": "0xF7198A",
+  "rom_end": "0xF7398E",
+  "size": 8196,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 668,
+  "rom_start": "0xF7398E",
+  "rom_end": "0xF742C8",
+  "size": 2362,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 669,
+  "rom_start": "0xF742C8",
+  "rom_end": "0xF76E4C",
+  "size": 11140,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 670,
+  "rom_start": "0xF76E4C",
+  "rom_end": "0xF782DC",
+  "size": 5264,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 671,
+  "rom_start": "0xF782DC",
+  "rom_end": "0xF7A104",
+  "size": 7720,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 672,
+  "rom_start": "0xF7A104",
+  "rom_end": "0xF7C682",
+  "size": 9598,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 673,
+  "rom_start": "0xF7C682",
+  "rom_end": "0xF7D994",
+  "size": 4882,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 674,
+  "rom_start": "0xF7D994",
+  "rom_end": "0xF80C62",
+  "size": 13006,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 675,
+  "rom_start": "0xF80C62",
+  "rom_end": "0xF822AA",
+  "size": 5704,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 676,
+  "rom_start": "0xF822AA",
+  "rom_end": "0xF84502",
+  "size": 8792,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3380"
+ },
+ {
+  "index": 677,
+  "rom_start": "0xF84502",
+  "rom_end": "0xF85BB6",
+  "size": 5812,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3080"
+ },
+ {
+  "index": 678,
+  "rom_start": "0xF85BB6",
+  "rom_end": "0xF8852A",
+  "size": 10612,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3100"
+ },
+ {
+  "index": 679,
+  "rom_start": "0xF8852A",
+  "rom_end": "0xF8ACF8",
+  "size": 10190,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3400"
+ },
+ {
+  "index": 680,
+  "rom_start": "0xF8ACF8",
+  "rom_end": "0xF8C7FE",
+  "size": 6918,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3100"
+ },
+ {
+  "index": 681,
+  "rom_start": "0xF8C7FE",
+  "rom_end": "0xF8CF4E",
+  "size": 1872,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 682,
+  "rom_start": "0xF8CF4E",
+  "rom_end": "0xF8D890",
+  "size": 2370,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3300"
+ },
+ {
+  "index": 683,
+  "rom_start": "0xF8D890",
+  "rom_end": "0xF8E370",
+  "size": 2784,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3300"
+ },
+ {
+  "index": 684,
+  "rom_start": "0xF8E370",
+  "rom_end": "0xF8EDEE",
+  "size": 2686,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3300"
+ },
+ {
+  "index": 685,
+  "rom_start": "0xF8EDEE",
+  "rom_end": "0xF8FB7C",
+  "size": 3470,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3100"
+ },
+ {
+  "index": 686,
+  "rom_start": "0xF8FB7C",
+  "rom_end": "0xF919FE",
+  "size": 7810,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3400"
+ },
+ {
+  "index": 687,
+  "rom_start": "0xF919FE",
+  "rom_end": "0xF9419A",
+  "size": 10140,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 688,
+  "rom_start": "0xF9419A",
+  "rom_end": "0xF9678C",
+  "size": 9714,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 689,
+  "rom_start": "0xF9678C",
+  "rom_end": "0xF98C72",
+  "size": 9446,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 690,
+  "rom_start": "0xF98C72",
+  "rom_end": "0xF9B1AA",
+  "size": 9528,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 691,
+  "rom_start": "0xF9B1AA",
+  "rom_end": "0xF9D50C",
+  "size": 9058,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 692,
+  "rom_start": "0xF9D50C",
+  "rom_end": "0xF9FCEC",
+  "size": 10208,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 693,
+  "rom_start": "0xF9FCEC",
+  "rom_end": "0xFA10A4",
+  "size": 5048,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x33C0"
+ },
+ {
+  "index": 694,
+  "rom_start": "0xFA10A4",
+  "rom_end": "0xFA1EC8",
+  "size": 3620,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x30C0"
+ },
+ {
+  "index": 695,
+  "rom_start": "0xFA1EC8",
+  "rom_end": "0xFA2D66",
+  "size": 3742,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x30C0"
+ },
+ {
+  "index": 696,
+  "rom_start": "0xFA2D66",
+  "rom_end": "0xFA3BB0",
+  "size": 3658,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x30C0"
+ },
+ {
+  "index": 697,
+  "rom_start": "0xFA3BB0",
+  "rom_end": "0xFA4A3C",
+  "size": 3724,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x30C0"
+ },
+ {
+  "index": 698,
+  "rom_start": "0xFA4A3C",
+  "rom_end": "0xFA597A",
+  "size": 3902,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x30C0"
+ },
+ {
+  "index": 699,
+  "rom_start": "0xFA597A",
+  "rom_end": "0xFA6788",
+  "size": 3598,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x30C0"
+ },
+ {
+  "index": 700,
+  "rom_start": "0xFA6788",
+  "rom_end": "0xFA7690",
+  "size": 3848,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x30C0"
+ },
+ {
+  "index": 701,
+  "rom_start": "0xFA7690",
+  "rom_end": "0xFA84E0",
+  "size": 3664,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x30C0"
+ },
+ {
+  "index": 702,
+  "rom_start": "0xFA84E0",
+  "rom_end": "0xFAA514",
+  "size": 8244,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3B40"
+ },
+ {
+  "index": 703,
+  "rom_start": "0xFAA514",
+  "rom_end": "0xFABCC6",
+  "size": 6066,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 704,
+  "rom_start": "0xFABCC6",
+  "rom_end": "0xFADCA0",
+  "size": 8154,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 705,
+  "rom_start": "0xFADCA0",
+  "rom_end": "0xFAF5D4",
+  "size": 6452,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 706,
+  "rom_start": "0xFAF5D4",
+  "rom_end": "0xFB13F4",
+  "size": 7712,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 707,
+  "rom_start": "0xFB13F4",
+  "rom_end": "0xFB23EE",
+  "size": 4090,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 708,
+  "rom_start": "0xFB23EE",
+  "rom_end": "0xFB532C",
+  "size": 12094,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 709,
+  "rom_start": "0xFB532C",
+  "rom_end": "0xFB7CF8",
+  "size": 10700,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 710,
+  "rom_start": "0xFB7CF8",
+  "rom_end": "0xFBADAC",
+  "size": 12468,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 711,
+  "rom_start": "0xFBADAC",
+  "rom_end": "0xFBCEAE",
+  "size": 8450,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 712,
+  "rom_start": "0xFBCEAE",
+  "rom_end": "0xFBEAE0",
+  "size": 7218,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 713,
+  "rom_start": "0xFBEAE0",
+  "rom_end": "0xFC051C",
+  "size": 6716,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 714,
+  "rom_start": "0xFC051C",
+  "rom_end": "0xFC27DA",
+  "size": 8894,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 715,
+  "rom_start": "0xFC27DA",
+  "rom_end": "0xFC5622",
+  "size": 11848,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 716,
+  "rom_start": "0xFC5622",
+  "rom_end": "0xFC7DD0",
+  "size": 10158,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 717,
+  "rom_start": "0xFC7DD0",
+  "rom_end": "0xFCADC4",
+  "size": 12276,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 718,
+  "rom_start": "0xFCADC4",
+  "rom_end": "0xFCD1A6",
+  "size": 9186,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 719,
+  "rom_start": "0xFCD1A6",
+  "rom_end": "0xFCE0A4",
+  "size": 3838,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 720,
+  "rom_start": "0xFCE0A4",
+  "rom_end": "0xFCF346",
+  "size": 4770,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 721,
+  "rom_start": "0xFCF346",
+  "rom_end": "0xFD08F6",
+  "size": 5552,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3600"
+ },
+ {
+  "index": 722,
+  "rom_start": "0xFD08F6",
+  "rom_end": "0xFD2EB8",
+  "size": 9666,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3300"
+ },
+ {
+  "index": 723,
+  "rom_start": "0xFD2EB8",
+  "rom_end": "0xFD4A00",
+  "size": 6984,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3280"
+ },
+ {
+  "index": 724,
+  "rom_start": "0xFD4A00",
+  "rom_end": "0xFD5F6C",
+  "size": 5484,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3100"
+ },
+ {
+  "index": 725,
+  "rom_start": "0xFD5F6C",
+  "rom_end": "0xFD80CA",
+  "size": 8542,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3100"
+ },
+ {
+  "index": 726,
+  "rom_start": "0xFD80CA",
+  "rom_end": "0xFD93BA",
+  "size": 4848,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3480"
+ },
+ {
+  "index": 727,
+  "rom_start": "0xFD93BA",
+  "rom_end": "0xFDB32A",
+  "size": 8048,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3460"
+ },
+ {
+  "index": 728,
+  "rom_start": "0xFDB32A",
+  "rom_end": "0xFDC90C",
+  "size": 5602,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3100"
+ },
+ {
+  "index": 729,
+  "rom_start": "0xFDC90C",
+  "rom_end": "0xFDDA40",
+  "size": 4404,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3200"
+ },
+ {
+  "index": 730,
+  "rom_start": "0xFDDA40",
+  "rom_end": "0xFDED6C",
+  "size": 4908,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 731,
+  "rom_start": "0xFDED6C",
+  "rom_end": "0xFDFD86",
+  "size": 4122,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 732,
+  "rom_start": "0xFDFD86",
+  "rom_end": "0xFE10EA",
+  "size": 4964,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3680"
+ },
+ {
+  "index": 733,
+  "rom_start": "0xFE10EA",
+  "rom_end": "0xFE20C0",
+  "size": 4054,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3140"
+ },
+ {
+  "index": 734,
+  "rom_start": "0xFE20C0",
+  "rom_end": "0xFE387A",
+  "size": 6074,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3500"
+ },
+ {
+  "index": 735,
+  "rom_start": "0xFE387A",
+  "rom_end": "0xFE4686",
+  "size": 3596,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3080"
+ },
+ {
+  "index": 736,
+  "rom_start": "0xFE4686",
+  "rom_end": "0xFE63F6",
+  "size": 7536,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3100"
+ },
+ {
+  "index": 737,
+  "rom_start": "0xFE63F6",
+  "rom_end": "0xFE77A8",
+  "size": 5042,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3180"
+ },
+ {
+  "index": 738,
+  "rom_start": "0xFE77A8",
+  "rom_end": "0xFE8B7C",
+  "size": 5076,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3700"
+ },
+ {
+  "index": 739,
+  "rom_start": "0xFE8B7C",
+  "rom_end": "0xFEA684",
+  "size": 6920,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3400"
+ },
+ {
+  "index": 740,
+  "rom_start": "0xFEA684",
+  "rom_end": "0xFEC1BA",
+  "size": 6966,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3800"
+ },
+ {
+  "index": 741,
+  "rom_start": "0xFEC1BA",
+  "rom_end": "0xFED33A",
+  "size": 4480,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x30C0"
+ },
+ {
+  "index": 742,
+  "rom_start": "0xFED33A",
+  "rom_end": "0xFEEAE8",
+  "size": 6062,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3400"
+ },
+ {
+  "index": 743,
+  "rom_start": "0xFEEAE8",
+  "rom_end": "0xFF014A",
+  "size": 5730,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3780"
+ },
+ {
+  "index": 744,
+  "rom_start": "0xFF014A",
+  "rom_end": "0xFF17E4",
+  "size": 5786,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x32A0"
+ },
+ {
+  "index": 745,
+  "rom_start": "0xFF17E4",
+  "rom_end": "0xFF28B2",
+  "size": 4302,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3300"
+ },
+ {
+  "index": 746,
+  "rom_start": "0xFF28B2",
+  "rom_end": "0xFF3C9E",
+  "size": 5100,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3340"
+ },
+ {
+  "index": 747,
+  "rom_start": "0xFF3C9E",
+  "rom_end": "0xFF57EC",
+  "size": 6990,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x3400"
+ },
+ {
+  "index": 748,
+  "rom_start": "0xFF57EC",
+  "rom_end": "0xFF5CEA",
+  "size": 1278,
+  "flag_bit31": true,
+  "method": "lz",
+  "out_size": "0x1400"
  }
 ]
