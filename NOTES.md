@@ -173,14 +173,12 @@ De functie rond `0x8004C000` is de **audio-initialisatie** (configuratie bevat `
 - `.tbl`-sampledata: `0x5B7350` - ongeveer `0xBC1600` (einde van het `.tbl` van bank 54: `0xBBB280` + `0x6380`).
 - Sequentie-inhoud (`00 00 xx xx 9F 00 ...`) is nog niet onderzocht.
 
-## Gecomprimeerde assets (ROM `0xBC1600` - `0xC9B384`)  [decompressor werkt]
-- Tabel op RAM `0x800966AC` (ROM `0x972AC`): begint met de tekst `Nisitenma-Ichigo`, daarna **62** paren `(begin, eind)` (8 bytes per paar, vanaf +0x10). Aaneensluitend (61/61), loopt van `0xBC1600` tot `0xC9B384`. Volledige lijst: `asset_index_3.json`.
-- Laadfunctie `0x8005399C`: leest zo'n paar en roept `rom_read` aan. Is het beginadres negatief (bit31 gezet), dan gaat ze naar `0x800082A8` (decompressor).
-- `0x800082A8(rom, dest, lengte)` leest de ROM in stukken van `0x1800` bytes (`0x80008890`, per byte via `0x80008810`) en heeft een 4-byte kop:
-  - bit31 gezet: standaard zlib (`0x8027D380`, de inflate-overlay). Kop = `0x80000000 | lengte`, daarna zlib-stream.
-  - kopnibble 0: **eigen LZ** (zie `iss_lz.py`); kop = gecomprimeerde lengte incl. kop.
-  - kopnibble 4 (komt 1x voor): tweede methode, nog niet gelezen (code vanaf `0x8000854C`).
-- Regels van de LZ-methode (uit de MIPS-code afgeleid):
+## Gecomprimeerde en ruwe assets (ROM `0xBC1600` - `0xFF5CEA`)  [volledig in kaart, 749 blokken]
+- Index in het hoofdblok vanaf RAM `0x800966AC` (ROM `0x972AC`): 16-byte kop (eerste kop = tekst `Nisitenma-Ichigo`), daarna paren `(begin, eind)` van 8 bytes. Drie groepen (62 + 11 + 676 entries) gescheiden door nulwoorden; samen **749 blokken**, aaneensluitend van `0xBC1600` tot `0xFF5CEA`, zonder gat. Tabel loopt tot ROM `0x98A68`. Lijst: `asset_index_3.json`.
+- **De vlag staat in de tabel:** bit31 van het beginadres. Gezet = gecomprimeerd, niet gezet = ruwe bytes. Laadfunctie `0x8005399C` roept bij een negatief beginadres de decompressor `0x800082A8` aan, anders `rom_read`.
+- Gecomprimeerde blokken (747): bij bit31 in de kop (`0x80000000 | lengte`) volgt een standaard zlib-stream (45 stuks, via `0x8027D380`); anders de eigen LZ (702 stuks, zie `iss_lz.py`).
+- Ruwe blokken (2, zonder vlag): index 10 (`0xBC80B0`, begint met kommagetallen `42 00 00 00 41 94 00 00 ...`) en index 459 (`0xE3A4BA`). **Eerdere notities spraken van een tweede compressiemethode (kopnibble 4); dat was een misinterpretatie.**
+- Regels van de LZ-methode (afgeleid uit de MIPS-code van `0x800082A8`):
   | Stuurbyte | Betekenis |
   |---|---|
   | `0x00-0x7F` | kopieer `(c>>2)+2` bytes van `afstand` terug, afstand = 10 bits (`(c&3)<<8 | volgende byte`) |
@@ -188,17 +186,18 @@ De functie rond `0x8004C000` is de **audio-initialisatie** (configuratie bevat `
   | `0xA0-0xDF` | volgende byte `(c & 0x1F)+2` keer herhalen |
   | `0xE0-0xFE` | `(c & 0x1F)+2` nullen |
   | `0xFF` | volgende byte + 2 nullen |
-- **Getest op alle 62 blokken: 61 pakken foutloos uit en eindigen exact op de lengte uit hun kop** (60 via LZ, 1 via zlib). Blok 10 (`0xBC80B0`, kop `0x42000000`) is de uitzondering.
-- Uitgepakt totaal (61 blokken): ruim 1,9 MiB.
-- **Inhoud visueel gecontroleerd** (uitgepakte blokken als 4-bit grijswaarden gerenderd, I4): het zijn UI-texturen. Herkend: vormen (cirkel, ster, driehoek), landnamen (Germany, France, Italy, Spain, Holland, Switzerland, Austria, Denmark, Belgium, Portugal, Luxembourg), positienamen (Sweeper, C.Back, Stopper, S.Back, W.Back, D.Half, O.Half, Wing, C.Forward, Striker, CrtPos), Japanse tekst, tijd- en weerwoorden (Night, Evening, Temperature, Humidity, Clear, Rain, Cloudy, Snow).
-- Breedte en formaat van elke textuur staan niet in het blok maar in de code die hem gebruikt (displaylijsten). Bij een verkeerde breedte ziet het beeld er vervormd uit. Niet alle blokken zijn bekeken; sommige zijn mogelijk 8-bit of geen afbeelding.
-- Let op: gerenderde texturen zijn game-assets en horen niet in de repo.
+  De kop (zonder bit31) is de gecomprimeerde lengte incl. kop; het blok eindigt exact daar.
+- **Getest:** alle 747 gevlagde blokken pakken foutloos uit en eindigen exact op de lengte uit hun kop. Totaal alle 749 blokken: circa 8,5 MiB (8,54 MiB).
+- Inhoud visueel gecontroleerd voor een deel van de eerste 62 blokken (als 4-bit grijswaarden, I4): UI-texturen (vormen, landnamen, positienamen, Japanse tekst, weerwoorden). Door de eigenaar bevestigd tegen de echte game. **De overige blokken zijn nog niet bekeken**; ze bevatten waarschijnlijk meer texturen, modellen en andere data.
+- Breedte en formaat van een textuur staan niet in het blok maar in de code die hem gebruikt (displaylijsten).
+- Let op: gerenderde of uitgepakte assets zijn game-assets en horen niet in de repo.
+- Staart na het laatste blok (`0xFF5CEA` - `0x1000000`, `0xA316` bytes): vrijwel alleen `0xFF`, dus opvulling.
 
 ## Onverklaarde ROM-gebieden (nog geen vaste laadconstanten gevonden)
 Totaal ongeveer 12,3 MiB. Waarschijnlijk assets die via een tabel/index worden geladen.
 - ~~`0x9E920` - `0x25AAF0`~~: verklaard, zie Asset-index #1.
 - `0x2A32A0` - `0x2B0E60`, `0x2BCB90` - `0x2C4920`, `0x2C7000` - `0x2C99E0`, `0x5021D0` - `0x5085D0`
-- `0xC9B384` - `0x1000000` (circa 3,4 MiB): **onbekend.** Niet gedekt door de tabel hierboven; mogelijk een of meer andere tabellen.
+- ROM `0xFF5CEA` - `0x1000000`: opvulling (`0xFF`).
 
 Correctie op een eerdere gok: `0x515890` (RAM `0x807AA000`) is geen tabel maar een klein codesegment.
 
